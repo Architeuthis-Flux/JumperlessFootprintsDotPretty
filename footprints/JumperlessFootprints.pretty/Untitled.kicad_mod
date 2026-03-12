@@ -1,0 +1,208 @@
+(footprint "Untitled"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.246 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a3686a04-409b-47d9-9712-df956fa2a8d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1.127 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c99782e1-1502-4a88-8bbc-09565a35bd66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.254 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23bdbdda-d5ac-47df-906a-60055eb6dd85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0.254 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "699363c3-0cc2-4cbc-b708-c07e3be9ac76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.2 -1.085)
+		(end 0.2 -0.185)
+		(stroke
+			(width 0.00001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "1e52c582-95ca-46a0-abde-6da5e3957798")
+	)
+	(fp_rect
+		(start -0.2 -1.085)
+		(end 0.2 -0.185)
+		(stroke
+			(width 0.00001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "a3af1aff-0a56-451e-a071-cdab11f83d9b")
+	)
+	(fp_rect
+		(start -0.2 0.185)
+		(end 0.2 1.085)
+		(stroke
+			(width 0.00001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "b1a51383-bfd6-4c78-b1de-958f8c016db6")
+	)
+	(fp_rect
+		(start -0.2 0.185)
+		(end 0.2 1.085)
+		(stroke
+			(width 0.00001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "ed5b4e39-e645-4f54-b937-f7e28624218e")
+	)
+	(pad "1" smd custom
+		(at -0.7 -0.635 180)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start -0.2 0)
+				(end -0.7 0)
+				(width 0.2)
+			)
+			(gr_poly
+				(pts
+					(xy -0.5 -0.45) (xy 0.025 -0.45) (xy 0.075 -0.425) (xy 0.175 -0.325) (xy 0.2 -0.275) (xy 0.2 0.275)
+					(xy 0.175 0.325) (xy 0.075 0.425) (xy 0.025 0.45) (xy -0.5 0.45)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a440000e-005c-4ec6-88d6-d369d6f5d33c")
+	)
+	(pad "2" smd custom
+		(at 0.7 -0.635 180)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.5 0.45) (xy -0.025 0.45) (xy -0.075 0.425) (xy -0.175 0.325) (xy -0.2 0.275) (xy -0.2 -0.275)
+					(xy -0.175 -0.325) (xy -0.075 -0.425) (xy -0.025 -0.45) (xy 0.5 -0.45)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_line
+				(start 0.2 0)
+				(end 0.7 0)
+				(width 0.2)
+			)
+		)
+		(uuid "fc29c43a-e5ca-4c51-83d2-d011911fd544")
+	)
+	(pad "3" smd custom
+		(at -0.7 0.635 180)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start -0.2 0)
+				(end -0.7 0)
+				(width 0.2)
+			)
+			(gr_poly
+				(pts
+					(xy -0.5 -0.45) (xy 0.025 -0.45) (xy 0.075 -0.425) (xy 0.175 -0.325) (xy 0.2 -0.275) (xy 0.2 0.275)
+					(xy 0.175 0.325) (xy 0.075 0.425) (xy 0.025 0.45) (xy -0.5 0.45)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "af2f5fd0-8e73-457d-8145-d72588bf8925")
+	)
+	(pad "4" smd custom
+		(at 0.7 0.635 180)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 0.2 0)
+				(end 0.7 0)
+				(width 0.2)
+			)
+			(gr_poly
+				(pts
+					(xy 0.5 0.45) (xy -0.025 0.45) (xy -0.075 0.425) (xy -0.175 0.325) (xy -0.2 0.275) (xy -0.2 -0.275)
+					(xy -0.175 -0.325) (xy -0.075 -0.425) (xy -0.025 -0.45) (xy 0.5 -0.45)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e11d7442-1306-4074-b860-412577f0b9ac")
+	)
+	(embedded_fonts no)
+)

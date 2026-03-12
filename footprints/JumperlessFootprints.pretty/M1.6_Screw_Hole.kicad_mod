@@ -1,0 +1,90 @@
+(footprint "M1.6_Screw_Hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 5.104 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c185fbbb-9cb9-4cbf-9c87-a1cfc679ef87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "M1.6_Screw_Hole"
+		(at 0 6.604 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a8b0ec1-97fb-4a30-b9b8-daed7851eaa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "M1.6_Screw_Hole"
+		(at 0 5.604 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ee611b0-1c95-4a6b-b443-107a40c5107f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 5.604 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86540872-4cc8-4ff2-8190-7549bdeef346")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 5.604 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1cc9d7c-1daf-4ce4-932e-f9882c48d024")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "75f47f65-d419-4015-bebc-f8ccb034154c")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "3289808f-15df-4ef8-bbab-832ad93fcc30")
+	)
+)

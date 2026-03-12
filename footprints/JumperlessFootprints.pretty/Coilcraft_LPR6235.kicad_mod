@@ -1,0 +1,223 @@
+(footprint "Coilcraft_LPR6235"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 29.385 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4555e996-0a1c-461c-ba08-a830f4e80cb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Coilcraft_LPR6235"
+		(at 0 30.885 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "592b25b1-d94d-4332-b5dd-9f4de43e0165")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 29.885 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d28ebe3-84ca-47db-aa95-9efdb68196a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 29.885 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "098eceec-b41b-4b2f-980a-719765732e53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -3 -2) (xy -3 2) (xy -2 3) (xy 2 3) (xy 3 2) (xy 3 -2) (xy 2 -3) (xy -2 -3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "a0564505-bf33-43d1-b087-3fe3d690a79a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 32.385 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "680c0c12-5fda-462a-9184-2d1386592a92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -2 -2)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.3 1) (xy -1.3 -0.125) (xy -0.125 -1.3) (xy 1 -1.3) (xy 1 -0.1) (xy -0.1 1)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "50796eb8-7132-4c26-b5eb-5369bc62d17c")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.1 0.9)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 1.2 1.2)
+				(roundrect_rratio 0.45)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "2" smd custom
+		(at -2 2)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1 1.3) (xy -0.125 1.3) (xy -1.275 0.125) (xy -1.3 -1) (xy -0.1 -1) (xy 1 0.1)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "34a5f299-430a-49b4-8318-08639dbb7dfb")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.1 0.9)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 1.2 1.2)
+				(roundrect_rratio 0.45)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "3" smd custom
+		(at 2 2)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.3 -1) (xy 1.3 0.125) (xy 0.125 1.3) (xy -1 1.3) (xy -1 0.1) (xy 0.1 -1)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "c9726ad6-44e9-4f2d-85c9-83400ba60d14")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.1 0.9)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 1.2 1.2)
+				(roundrect_rratio 0.45)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "4" smd custom
+		(at 2.1 -2)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.100001 -1.3) (xy 0.025 -1.3) (xy 1.2 -0.125) (xy 1.2 1.000001) (xy -0.000001 1) (xy -1.1 -0.099999)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "12cb95c8-ffb3-42e6-9bc8-35882cfd5bfb")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.1 0.9)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 1.2 1.2)
+				(roundrect_rratio 0.45)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

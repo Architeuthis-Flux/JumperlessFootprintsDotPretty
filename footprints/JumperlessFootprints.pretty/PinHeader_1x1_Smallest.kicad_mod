@@ -1,0 +1,84 @@
+(footprint "PinHeader_1x1_Smallest"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0508 -1.4732 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1ba25aca-34ad-4814-a973-15d131c46f8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BottomOutMAIN"
+		(at 0.0254 1.651 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d043e9e5-1797-46e1-bcaf-466548153547")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f547124f-9453-49fe-83c4-f63e991643d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 1.15 1.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a69a716-e7b2-4d5a-a710-c7cde9826a03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole custom
+		(at 0 0)
+		(size 1 1)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.5 -0.25) (xy 0.475 -0.3) (xy 0.3 -0.475) (xy 0.25 -0.5) (xy -0.25 -0.5) (xy -0.3 -0.475)
+					(xy -0.475 -0.3) (xy -0.5 -0.25) (xy -0.5 0.25) (xy -0.475 0.3) (xy -0.3 0.475) (xy -0.25 0.5)
+					(xy 0.25 0.5) (xy 0.3 0.475) (xy 0.475 0.3) (xy 0.5 0.25)
+				)
+				(width 0.07)
+				(fill yes)
+			)
+		)
+		(uuid "a38b8b3c-58c2-4e76-b673-0ab9c06cccb3")
+	)
+	(embedded_fonts no)
+)

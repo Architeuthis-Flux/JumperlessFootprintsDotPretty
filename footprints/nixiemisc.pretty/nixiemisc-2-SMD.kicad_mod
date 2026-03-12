@@ -1,0 +1,78 @@
+(footprint "nixiemisc-2-SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "0e701ac8-30a8-4540-b802-fe189eabba66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "16dc438f-cba8-4272-bd6c-777a13316bfe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c447ddf2-e2d9-4027-b6da-054b1bdd60a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b69b1099-b27d-492e-83af-7386e4ebb290")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.49936 -1.29794)
+		(end -2.49936 1.29794)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db22fc61-3de2-4465-bacb-8ef703a2ec9d")
+	)
+	(pad "1" smd rect
+		(at -1.39446 0 90)
+		(size 2.35966 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0136ffe5-b7d7-407b-8304-e2e43a11ec50")
+	)
+	(pad "2" smd rect
+		(at 1.39446 0 90)
+		(size 2.35966 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "dd6b838a-41a6-4533-8a65-f2aac6af7ecb")
+	)
+	(embedded_fonts no)
+)

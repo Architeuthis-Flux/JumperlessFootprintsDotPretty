@@ -1,0 +1,107 @@
+(footprint "PinHeader_1x1_0.6mm_tinyAF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "975e6dd2-5b74-40da-8f1c-c4aeb8c9b226")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PinHeader_1x1_0.6mm_tinyAF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c840effc-26e5-4aa0-b8dc-c28177979a5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18a0f822-0b8f-453b-b153-4c30d984b390")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9eb0a5d9-ee20-43f9-a734-c092d5a4d21c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole custom
+		(at 0 0)
+		(size 0.8128 0.8128)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.3734 0.223799) (xy 0.223799 0.3734) (xy 0.1738 0.3984) (xy 0 0.4064) (xy 0 0) (xy 0.4064 0)
+					(xy 0.3984 0.1738)
+				)
+				(width 0.07)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.3734 -0.223798) (xy -0.223798 -0.3734) (xy -0.1738 -0.398399) (xy 0 -0.406399) (xy 0 0)
+					(xy -0.406399 0) (xy -0.398399 -0.1738)
+				)
+				(width 0.07)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.223798 0.373401) (xy -0.373401 0.223798) (xy -0.398399 0.173801) (xy -0.406398 0) (xy 0 0)
+					(xy 0 0.406398) (xy -0.173801 0.398399)
+				)
+				(width 0.07)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.223798 -0.3734) (xy 0.3734 -0.223798) (xy 0.398399 -0.1738) (xy 0.406399 0) (xy 0 0) (xy 0 -0.406399)
+					(xy 0.1738 -0.398399)
+				)
+				(width 0.07)
+				(fill yes)
+			)
+		)
+		(uuid "5f881a8b-f33d-4cd0-8f3d-ed4329823e14")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,105 @@
+(footprint "mynixies-NE2-NEON-BULB-DRILL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NE2 NEON-BULB (CABLE MOUNTING-HOLE)")
+	(tags "NE2 NEON-BULB (CABLE MOUNTING-HOLE)")
+	(property "Reference" ">NAME"
+		(at 0.127 -0.3302 0)
+		(layer "F.SilkS")
+		(uuid "8d180b82-234e-4b6e-95f4-9bcdd3bc1706")
+		(effects
+			(font
+				(size 0.4064 0.4064)
+				(thickness 0.0254)
+			)
+		)
+	)
+	(property "Value" ">VALUE"
+		(at 0.3302 0.3048 0)
+		(layer "F.SilkS")
+		(uuid "d5f74fac-05f8-4467-bfaa-056369ca61c8")
+		(effects
+			(font
+				(size 0.4064 0.4064)
+				(thickness 0.0254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8efaa547-1bbe-4751-9420-c546ac2fee0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4007a852-223c-43bd-97df-ae535a1cec4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_arc
+		(start 0.635 -0.635)
+		(mid 0 0.898026)
+		(end -0.635 -0.635)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18be7ba6-f2cb-4041-aece-677c1ca0ef1a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.79578)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4781d791-b323-4753-9ed6-0ab6119dfbc6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.41986)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "13b66b2e-7d6d-40d1-bd68-1a896c2af7b0")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -1.27)
+		(size 1.4224 1.4224)
+		(drill 0.6985)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e476cbd3-20bd-4cba-aee2-24421eb3330c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.27)
+		(size 1.4224 1.4224)
+		(drill 0.6985)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b89767ad-8c77-4b3f-9a89-b7abf1ada6e4")
+	)
+	(embedded_fonts no)
+)

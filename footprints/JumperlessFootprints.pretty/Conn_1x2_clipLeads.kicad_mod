@@ -1,0 +1,156 @@
+(footprint "Conn_1x2_clipLeads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12.93 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ca111079-c1ab-4088-b4dc-8598e19e8180")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conn_1x2_clipLeads"
+		(at 0 -11.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3c6cb1d-f127-4b33-aa52-fc29eaea3202")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -12.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb6b2047-221d-4d0a-9cbe-095762bd532c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -12.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "125d04a0-963b-4f8d-ada0-887add00536b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -12.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72f7d1e1-d4c0-43d2-9780-ff5b4c8083ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole custom
+		(at -1.27 0)
+		(size 1.3 1.3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.592978 0.618955) (xy -0.577178 -0.051045) (xy -0.551778 -0.559845) (xy -0.142978 -0.585245)
+					(xy 0.007022 -0.591045) (xy 0.159422 -0.585245) (xy 0.537022 -0.561045) (xy 0.567022 -0.051045)
+					(xy 0.587022 0.618955) (xy 0.567022 1.348955) (xy 0.527022 1.827755) (xy 0.210222 1.853155) (xy 0.007022 1.858955)
+					(xy -0.196178 1.853155) (xy -0.551778 1.827755) (xy -0.577178 1.323955)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.616762 0.62) (xy -0.62394 -0.051045) (xy -0.596762 -0.66) (xy -0.14974 -0.68) (xy 0.00026 -0.69)
+					(xy 0.15266 -0.68) (xy 0.57026 -0.66) (xy 0.60026 -0.051045) (xy 0.593238 0.62) (xy 0.563238 1.36)
+					(xy 0.52026 1.827755) (xy 0.20346 1.853155) (xy 0.00026 1.858955) (xy -0.20294 1.853155) (xy -0.55854 1.827755)
+					(xy -0.596762 1.34)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "425e4853-2bb5-45e0-a7d6-77e8baf6c9e3")
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 1.27)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97b1db41-e7be-42b1-a1c4-57f3221d612b")
+	)
+	(pad "2" thru_hole custom
+		(at 1.27 0)
+		(size 1.3 1.3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.592978 0.618955) (xy -0.577178 -0.051045) (xy -0.551778 -0.559845) (xy -0.142978 -0.585245)
+					(xy 0.007022 -0.591045) (xy 0.159422 -0.585245) (xy 0.537022 -0.561045) (xy 0.567022 -0.051045)
+					(xy 0.587022 0.618955) (xy 0.567022 1.348955) (xy 0.527022 1.827755) (xy 0.210222 1.853155) (xy 0.007022 1.858955)
+					(xy -0.196178 1.853155) (xy -0.551778 1.827755) (xy -0.577178 1.323955)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.616762 0.62) (xy -0.62394 -0.051045) (xy -0.596762 -0.66) (xy -0.14974 -0.68) (xy 0.00026 -0.69)
+					(xy 0.15266 -0.68) (xy 0.57026 -0.66) (xy 0.60026 -0.051045) (xy 0.593238 0.62) (xy 0.563238 1.36)
+					(xy 0.52026 1.827755) (xy 0.20346 1.853155) (xy 0.00026 1.858955) (xy -0.20294 1.853155) (xy -0.55854 1.827755)
+					(xy -0.596762 1.34)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "44bba69b-85d7-462e-b3cc-8a4ba48ff55f")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 1.27)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f8a36b9-4cd4-4c26-9da5-415d972d40cb")
+	)
+)

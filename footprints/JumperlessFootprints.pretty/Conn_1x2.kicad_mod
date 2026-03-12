@@ -1,0 +1,118 @@
+(footprint "Conn_1x2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 8.66 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ae2f986b-812a-4428-9650-0929da5b5fd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conn_1x2"
+		(at 0 10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f9efec9-728d-47fd-88bb-25d92601aff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fe6ec3a-d4ba-46a5-8be3-c0156f369eef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d83b6b8-585e-4912-86d0-f94778b7b774")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4934b1e0-d48d-4224-9713-ab0fddae2814")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole custom
+		(at 0 0)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "5268e989-87b0-4f76-a4be-105da21e2237")
+	)
+	(pad "2" thru_hole custom
+		(at 0 2.54)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "7ff23a7f-e6d5-472a-ac4e-d94ffb55807c")
+	)
+)

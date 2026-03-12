@@ -1,0 +1,204 @@
+(footprint "Solder_jumper_micro"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "294ccfc6-5246-4ef3-9492-051abdce852b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Solder_jumper_micro"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e3f0fe3-58b4-4461-b296-536226ec534a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4471be28-6eb8-4ce9-a215-db8afc88c7f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c1f34ba-a9af-4d7e-bcb7-a3ef4541442f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.1492 -0.2214)
+		(end 0.1492 0.2214)
+		(stroke
+			(width 0.00001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "64315d24-fb1c-47ec-a583-59c956724c5d")
+	)
+	(fp_rect
+		(start -0.1492 -0.2214)
+		(end 0.1492 0.2214)
+		(stroke
+			(width 0.00001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "95bc485c-da47-4423-8e08-da135440c241")
+	)
+	(pad "1" smd custom
+		(at -0.3302 0)
+		(size 0.3272 0.3272)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1746 -0.071919) (xy -0.1746 0.071919) (xy -0.173694 0.080384)
+					(arc
+						(start -0.165779 0.116936)
+						(mid -0.162434 0.126415)
+						(end -0.156832 0.134761)
+					)
+					(arc
+						(start -0.080105 0.222746)
+						(mid -0.07454 0.228011)
+						(end -0.068074 0.232118)
+					)
+					(arc
+						(start -0.033539 0.249662)
+						(mid -0.024737 0.2529)
+						(end -0.015422 0.254)
+					)
+					(arc
+						(start 0.1552 0.254)
+						(mid 0.183484 0.242284)
+						(end 0.1952 0.214)
+					)
+					(arc
+						(start 0.1952 -0.214)
+						(mid 0.183484 -0.242284)
+						(end 0.1552 -0.254)
+					)
+					(arc
+						(start -0.015422 -0.254)
+						(mid -0.024737 -0.2529)
+						(end -0.033539 -0.249662)
+					)
+					(arc
+						(start -0.068074 -0.232118)
+						(mid -0.07454 -0.228011)
+						(end -0.080105 -0.222746)
+					)
+					(arc
+						(start -0.156832 -0.134761)
+						(mid -0.162434 -0.126415)
+						(end -0.165779 -0.116936)
+					)
+					(xy -0.173694 -0.080384)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "668c7963-a5ad-45b7-b336-a5c2c34fbee3")
+	)
+	(pad "2" smd custom
+		(at 0.3302 0 180)
+		(size 0.3272 0.3272)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1746 -0.071919) (xy -0.1746 0.071919) (xy -0.173694 0.080384)
+					(arc
+						(start -0.165779 0.116936)
+						(mid -0.162434 0.126415)
+						(end -0.156832 0.134761)
+					)
+					(arc
+						(start -0.080105 0.222746)
+						(mid -0.07454 0.228011)
+						(end -0.068074 0.232118)
+					)
+					(arc
+						(start -0.033539 0.249662)
+						(mid -0.024737 0.2529)
+						(end -0.015422 0.254)
+					)
+					(arc
+						(start 0.1552 0.254)
+						(mid 0.183484 0.242284)
+						(end 0.1952 0.214)
+					)
+					(arc
+						(start 0.1952 -0.214)
+						(mid 0.183484 -0.242284)
+						(end 0.1552 -0.254)
+					)
+					(arc
+						(start -0.015422 -0.254)
+						(mid -0.024737 -0.2529)
+						(end -0.033539 -0.249662)
+					)
+					(arc
+						(start -0.068074 -0.232118)
+						(mid -0.07454 -0.228011)
+						(end -0.080105 -0.222746)
+					)
+					(arc
+						(start -0.156832 -0.134761)
+						(mid -0.162434 -0.126415)
+						(end -0.165779 -0.116936)
+					)
+					(xy -0.173694 -0.080384)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5f594f08-5e4a-434f-a009-ca98d5f8a44e")
+	)
+	(embedded_fonts no)
+)

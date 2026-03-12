@@ -1,0 +1,302 @@
+(footprint "Conn_1x10"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.04 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f644c882-632b-4372-b28a-0da4bec412f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conn_1x10"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4b56047-57fa-423f-a60e-16ab70a69087")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e13aa03b-f66c-4b6c-b240-036c6f710957")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cceaf18c-0f3c-44d2-8789-05a67e8d8c44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36805b1c-32fc-4dc0-8a79-f9d7ffad0c6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole custom
+		(at 0 0)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "1caf69ad-9410-4950-8d1c-8775e40c0cd5")
+	)
+	(pad "2" thru_hole custom
+		(at 0 2.54)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "93678123-380a-4f00-8607-345f5ef666d2")
+	)
+	(pad "3" thru_hole custom
+		(at 0 5.08)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "5f9deb6b-eaa9-4301-af3a-aadaf8a2e935")
+	)
+	(pad "4" thru_hole custom
+		(at 0 7.62)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "2123ae23-a78b-416a-a161-aeb5de0fdb55")
+	)
+	(pad "5" thru_hole custom
+		(at 0 10.16)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "b9945527-4917-4ccc-8f1a-3a422995fc40")
+	)
+	(pad "6" thru_hole custom
+		(at 0 12.7)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "9b73b58f-0a65-4f37-85b2-722e403c7cf8")
+	)
+	(pad "7" thru_hole custom
+		(at 0 15.24)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "430b6084-db49-46b5-955d-e6426050aa98")
+	)
+	(pad "8" thru_hole custom
+		(at 0 17.78)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "e1980346-7aa2-49f5-80b7-080816064832")
+	)
+	(pad "9" thru_hole custom
+		(at 0 20.32)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "0f35c6a9-dfe6-4770-b6dc-c45c7a53b816")
+	)
+	(pad "10" thru_hole custom
+		(at 0 22.86)
+		(size 1 1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.59) (xy 0.2286 -0.5842) (xy 0.5588 -0.5588) (xy 0.5842 -0.2032) (xy 0.59 0) (xy 0.5842 0.2032)
+					(xy 0.5588 0.5334) (xy 0.2286 0.5842) (xy 0 0.59) (xy -0.2286 0.5842) (xy -0.5588 0.5334) (xy -0.5842 0.2032)
+					(xy -0.59 0) (xy -0.5842 -0.2032) (xy -0.5588 -0.5588) (xy -0.2286 -0.5842)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "9a141395-acfe-4a05-9bc7-03891703dbd1")
+	)
+)

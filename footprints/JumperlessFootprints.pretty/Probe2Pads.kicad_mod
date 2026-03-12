@@ -1,0 +1,90 @@
+(footprint "Probe2Pads"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1778 3.9704 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7b335ed6-d4f9-49cf-811c-49b863dfae41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Probe2Pads"
+		(at 0.1778 5.4704 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e5929dd-5e76-42f8-bb07-10f9763016d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Probe2Pads"
+		(at 0.1778 4.4704 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf922a59-c663-4ea7-bcfc-a7c1bd8fedbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.1778 4.4704 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5943cef-fdc2-40ec-a967-18f80dc8a875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.1778 4.4704 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b374f7d9-0f8b-4b03-9a3c-526cc39858ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "2" thru_hole roundrect
+		(at 0 -0.508 90)
+		(size 0.6 0.7)
+		(drill oval 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "cc8271fa-9bc8-4070-9e8d-571f08a7f5fc")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0.508 90)
+		(size 0.6 0.7)
+		(drill oval 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "b9ee5e74-60a0-4aa2-8faf-ed8026415d3b")
+	)
+)

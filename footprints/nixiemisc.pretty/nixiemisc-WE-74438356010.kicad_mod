@@ -1,0 +1,108 @@
+(footprint "nixiemisc-WE-74438356010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "e1818193-e3fa-42a9-a81d-f281d68c41c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e854af24-c693-4dc9-8937-f2abe32072fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4247910e-da06-4820-a37e-0d6bc5f133f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a513ed62-97bc-46d5-a5f0-797aecd7de47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.09804 -2.09804)
+		(end -2.09804 2.09804)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "888decea-259e-46a4-bebc-441b082d71e3")
+	)
+	(fp_line
+		(start -2.09804 -2.09804)
+		(end 2.09804 -2.09804)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4de9cfee-c1d1-4410-b16d-940c5b9aed92")
+	)
+	(fp_line
+		(start -2.09804 2.09804)
+		(end 2.09804 2.09804)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b5e1b2a-1136-488c-87c9-a3b080bfaf5a")
+	)
+	(fp_line
+		(start 2.09804 -2.09804)
+		(end 2.09804 2.09804)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a493de1e-90a8-42d5-ac25-b2ca75a9cfbf")
+	)
+	(pad "1" smd rect
+		(at -1.22428 0)
+		(size 0.89916 3.69824)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f8b8eccf-9217-474b-a4ad-4c5fb6055dd9")
+	)
+	(pad "2" smd rect
+		(at 1.22428 0)
+		(size 0.89916 3.69824)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e2d7e374-2828-4abb-b86b-2671e2e24277")
+	)
+	(embedded_fonts no)
+)

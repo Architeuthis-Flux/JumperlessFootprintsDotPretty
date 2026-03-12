@@ -1,0 +1,140 @@
+(footprint "SolderJumper_2_Bridged_Small"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0762 -2.0828 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0ce0a5f3-26d8-4fc6-874e-15dda6bf09f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NANO 5V"
+		(at 0.0254 3.3274 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dc2469e-c832-4eae-ad32-7115106b83bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "JumperlessFootprints:SolderJumper_2_Bridged_Small"
+		(at -0.225 1.975 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a9e7c26e-54a4-431d-810a-9be2ef0f0b8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "018ee40d-da11-4999-b04d-2dea452a8c86")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c3345baf-d4d3-49b5-b48f-f1707c6f147c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.35 -0.175) (xy 0 -0.1) (xy 0.35 -0.175) (xy 0.35 0.175) (xy 0 0.1) (xy -0.35 0.175)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "ad580b72-437a-4893-bb2e-f8eb54d3791d")
+	)
+	(fp_rect
+		(start -0.2 -0.45)
+		(end 0.2 0.45)
+		(stroke
+			(width 0.00001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "733dd256-7e26-4cfd-bb8e-d4ef1884193a")
+	)
+	(pad "1" smd custom
+		(at -0.7 0 180)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -0.45) (xy 0.025 -0.45) (xy 0.075 -0.425) (xy 0.175 -0.325) (xy 0.2 -0.275) (xy 0.2 0.275)
+					(xy 0.175 0.325) (xy 0.075 0.425) (xy 0.025 0.45) (xy -0.5 0.45)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a00b0902-2752-441d-83c4-fe4873364b8d")
+	)
+	(pad "2" smd custom
+		(at 0.7 0 180)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.5 0.45) (xy -0.025 0.45) (xy -0.075 0.425) (xy -0.175 0.325) (xy -0.2 0.275) (xy -0.2 -0.275)
+					(xy -0.175 -0.325) (xy -0.075 -0.425) (xy -0.025 -0.45) (xy 0.5 -0.45)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7373100e-035e-4fc4-82af-326c92bf35a1")
+	)
+)

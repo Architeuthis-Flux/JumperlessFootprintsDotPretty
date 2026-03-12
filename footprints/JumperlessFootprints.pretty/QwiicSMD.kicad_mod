@@ -1,0 +1,114 @@
+(footprint "QwiicSMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11.3204 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e7070efe-2bb0-4285-bc0a-60ed6edafa49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "QwiicSMD"
+		(at 0 -9.8204 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25f1749b-b0f4-40b5-a264-1716fd5f4fb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -10.8204 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a25d967-a603-493e-8081-284e81938b32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -10.8204 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ca7d85b-700b-43a9-aa17-1ed907ea5b21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -10.8204 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42ff7864-963d-4715-ab79-f0f2ebb37e9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd roundrect
+		(at 1.5 2.2 180)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "49bd4777-0511-48d2-b96c-6100101a2bbd")
+	)
+	(pad "2" smd roundrect
+		(at 0.5 2.2 180)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2e794ad0-059b-4d67-a119-e5970d4de813")
+	)
+	(pad "3" smd roundrect
+		(at -0.5 2.2 180)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "208e8178-716f-4a9b-97ab-8e8d55028937")
+	)
+	(pad "4" smd roundrect
+		(at -1.5 2.2 180)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3595b0f4-faaf-4d95-bc26-aa3498b6844f")
+	)
+	(pad "MP" smd roundrect
+		(at -2.7 0 180)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "18291b3d-7455-4e08-aeaf-bf3d421ce6ab")
+	)
+	(pad "MP" smd roundrect
+		(at 2.7 0 180)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "4c4d2131-cf1c-47e3-a134-ade70a8e8ad6")
+	)
+)
