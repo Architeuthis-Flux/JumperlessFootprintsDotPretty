@@ -1,0 +1,163 @@
+(footprint "SOT-223-SOT535"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "module CMS SOT223 4 pins")
+	(tags "CMS SOT")
+	(property "Reference" "J22"
+		(at 0 -4.500001 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5376ab9e-355a-4498-878e-285eb424af6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_02x03_Counter_Clockwise"
+		(at 0 4.500001 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4571d04-06b2-4b08-a60b-473b984e0631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fffd66c-af98-4742-bffe-e8421bdcc613")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4e51e5f-8792-4b8f-8264-8d5852275661")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd custom
+		(at -3.937 -2.286)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.568 -0.48895) (xy -1.397 -0.6985) (xy 1.524 -0.6985) (xy 1.651 -0.48895) (xy 1.651 0.48895)
+					(xy 1.524 0.6985) (xy -1.397 0.6985) (xy -1.568 0.48895)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "93dde21f-965d-4311-9eff-4be54a25c21d")
+	)
+	(pad "2" smd custom
+		(at -3.937 0)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.568 -0.48895) (xy -1.397 -0.6985) (xy 1.524 -0.6985) (xy 1.651 -0.48895) (xy 1.651 0.48895)
+					(xy 1.524 0.6985) (xy -1.397 0.6985) (xy -1.568 0.48895)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "d71fd160-f8ca-49b5-b79d-a4f845efa4f8")
+	)
+	(pad "3" smd custom
+		(at -3.937 2.286)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.568 -0.48895) (xy -1.397 -0.6985) (xy 1.524 -0.6985) (xy 1.651 -0.48895) (xy 1.651 0.48895)
+					(xy 1.524 0.6985) (xy -1.397 0.6985) (xy -1.568 0.48895)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "2def946a-8813-4b75-ac29-5432f7acaec8")
+	)
+	(pad "4" smd custom
+		(at 2.413 0 90)
+		(size 5.08 5.08)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.8575 -1.524) (xy -1.8415 -2.54) (xy 1.8415 -2.54) (xy 2.8575 -1.524) (xy 2.8575 1.524) (xy 1.8415 2.54)
+					(xy -1.8415 2.54) (xy -2.8575 1.524)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -2.9845 -1.524) (xy -2.0955 -2.54) (xy 1.8415 -2.54) (xy 2.7305 -1.524) (xy 2.7305 1.524) (xy 1.8415 2.54)
+					(xy -2.0955 2.54) (xy -2.9845 1.524)
+				)
+				(width 0.35)
+				(fill yes)
+			)
+		)
+		(uuid "4235fdef-f6fb-462a-a385-ebe19ea68b46")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
