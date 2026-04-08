@@ -32,3 +32,6 @@ fp-info-cache
 /3rdparty
 /plugins
 *.zip
+/3dmodels/3d
+/3dmodels/CERN
+/template/eurorack-kicad-templates-main

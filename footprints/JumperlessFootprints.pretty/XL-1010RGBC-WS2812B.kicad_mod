@@ -1,13 +1,13 @@
 (footprint "XL-1010RGBC-WS2812B"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.07 0.02 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "87770b3a-f1ed-4846-82e0-8af1315fd8ba")
+		(uuid "06a91c88-b87b-405e-8cc4-11f2e288ac2a")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ed479c62-d073-4bc0-a525-d95adcb768e9")
+		(uuid "d30cd42c-45e2-4aa7-a9a1-935bb923cffc")
 		(effects
 			(font
 				(size 0.3 0.3)
@@ -29,25 +29,12 @@
 			)
 		)
 	)
-	(property "Footprint" "JumperlessFootprints:XL-1010RGBC-WS2812B"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "81ebbbfa-ce0a-4253-8f41-296ebbcb5f95")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a23c041d-3953-4660-a9d3-875f0d15c96b")
+		(uuid "e6eb4305-a44f-418b-8fd3-ec96b0a88885")
 		(effects
 			(font
 				(size 1 1)
@@ -60,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cbae726c-ce2a-4321-97dd-18527c2377f4")
+		(uuid "acc9f090-5f83-4ed6-897a-9868319f6f2a")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "52c3c9cd-247e-4958-8670-c03df27e1670")
+		(uuid "2b30d251-6f30-4630-a19c-5f189eb91175")
 		(effects
 			(font
 				(size 1 1)
@@ -82,38 +69,66 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.239817 -0.62509) (xy -0.218892 -0.611108) (xy -0.20491 -0.590183) (xy -0.2 -0.5655) (xy -0.2 -0.2645)
+			(xy -0.20491 -0.239817) (xy -0.218892 -0.218892) (xy -0.239817 -0.20491) (xy -0.2645 -0.2) (xy -0.5655 -0.2)
+			(xy -0.590183 -0.20491) (xy -0.611108 -0.218892) (xy -0.62509 -0.239817) (xy -0.63 -0.2645) (xy -0.63 -0.5655)
+			(xy -0.62509 -0.590183) (xy -0.611108 -0.611108) (xy -0.590183 -0.62509) (xy -0.5655 -0.63) (xy -0.2645 -0.63)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "a47eb028-d52c-4d20-9432-2dc521406bb2")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.3")
+		(uuid "18aa398e-9806-4fa3-b453-6b8e71e13b72")
+	)
 	(pad "1" smd roundrect
 		(at -0.415 -0.415)
 		(size 0.43 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "3e5eabdb-7298-43e4-9061-c53d3d35b08d")
+		(uuid "81637e27-692f-44b1-9d03-8cc4d4d1ffa5")
 	)
 	(pad "2" smd roundrect
 		(at 0.415 -0.415)
 		(size 0.43 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "9a649b7f-46cc-492f-9e98-256e6becc48c")
+		(uuid "4a54c233-1bcb-45cc-9474-cb9eb6792e40")
 	)
 	(pad "3" smd roundrect
 		(at -0.415 0.415)
 		(size 0.43 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "5705fb2c-789b-460b-9960-7a3a61fc6db5")
+		(uuid "28341b06-b3a1-466d-a572-eb30f4c63c14")
 	)
 	(pad "4" smd roundrect
 		(at 0.415 0.415)
 		(size 0.43 0.43)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "eb24bfd8-8c6e-473a-a8dd-cc11c652b2f9")
+		(uuid "45ac8d34-28ed-4a8f-b5a9-4a0bc4a5839f")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
 		(hide yes)
 		(offset

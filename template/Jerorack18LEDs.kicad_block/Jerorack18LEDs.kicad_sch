@@ -1,0 +1,2251 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "23a29d8c-fc56-4321-89af-c6fe6a7b6925")
+	(paper "A4")
+	(lib_symbols
+		(symbol "JumperlessSymbols:xl-1010RGBC_Small"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "xl-1010RGBC_Small_0_1"
+				(rectangle
+					(start -1.905 1.905)
+					(end 1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "xl-1010RGBC_Small_1_1"
+				(pin output line
+					(at -2.54 0 0)
+					(length 0.635)
+					(name "DOUT"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "VDD"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "VSS"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name "DIN"
+						(effects
+							(font
+								(size 0.254 0.254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 139.7 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c13df8c-32a1-4736-b9fc-366adaedb9da")
+	)
+	(junction
+		(at 104.14 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dab0981-925d-4171-8508-0712112c7136")
+	)
+	(junction
+		(at 134.62 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14608004-9cc5-4798-8001-43ee80aaec39")
+	)
+	(junction
+		(at 139.7 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d7ff098-7a56-40be-a79c-ac88eda69f19")
+	)
+	(junction
+		(at 154.94 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eaba65e-66ec-4039-85db-30837ea17f35")
+	)
+	(junction
+		(at 109.22 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f7e0813-9492-4fd9-b566-240fa2fc3279")
+	)
+	(junction
+		(at 99.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fedaf9f-4be2-4292-826d-dfd8ef4c01eb")
+	)
+	(junction
+		(at 170.18 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "364e4206-98ff-45a6-9975-640d7bff54c9")
+	)
+	(junction
+		(at 175.26 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "389549ed-549a-443a-8ebc-836b4f7a240d")
+	)
+	(junction
+		(at 119.38 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d065d33-77cb-4939-b7c2-2e29fb6aba9e")
+	)
+	(junction
+		(at 124.46 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4091d878-3ac3-435b-bdb6-340305d793c5")
+	)
+	(junction
+		(at 129.54 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40f0648d-5ff6-4f48-8ca1-3975c2db3121")
+	)
+	(junction
+		(at 154.94 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45c8ccc8-7fc2-42b9-8644-89c891746bd3")
+	)
+	(junction
+		(at 99.06 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b783398-4fad-4ad6-8926-77e7492460f1")
+	)
+	(junction
+		(at 144.78 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "543f05ee-ee7c-4042-9eec-abea696ff57f")
+	)
+	(junction
+		(at 149.86 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "595d1606-64de-4919-9025-3655763c6e79")
+	)
+	(junction
+		(at 165.1 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d22ecb6-c0c3-4abd-8f43-d71171afe888")
+	)
+	(junction
+		(at 170.18 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5eb88f83-fca6-40c4-b421-b7581854cb01")
+	)
+	(junction
+		(at 180.34 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6db138da-4e91-4e54-b7f4-9ace5fec47ae")
+	)
+	(junction
+		(at 104.14 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70f50fe2-aa6a-4147-aff4-620825c1c450")
+	)
+	(junction
+		(at 114.3 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78d7df5c-fcd2-4838-bb66-9513adad73f4")
+	)
+	(junction
+		(at 134.62 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bbfe89b-6aeb-4895-a876-7d2ee200c090")
+	)
+	(junction
+		(at 114.3 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84d46791-4761-421f-8ba0-4097c1e32146")
+	)
+	(junction
+		(at 160.02 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "871a424e-5061-4532-a684-c69a1a5f3df7")
+	)
+	(junction
+		(at 124.46 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95e5d200-cdf8-4859-94ee-008f61907c15")
+	)
+	(junction
+		(at 180.34 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a771ec9-6a7e-4a09-b3ba-148fa5f8a0c8")
+	)
+	(junction
+		(at 109.22 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f99626f-ff2d-4092-8694-c36783638bc7")
+	)
+	(junction
+		(at 165.1 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a857125d-2bdf-4945-8fa6-f0188ad92d01")
+	)
+	(junction
+		(at 175.26 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b284d4e5-b258-49c5-a7ab-7e4c373b86f1")
+	)
+	(junction
+		(at 144.78 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf2c4316-d3a5-479b-8cf3-2ae0f2746155")
+	)
+	(junction
+		(at 119.38 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1300e90-e45c-432f-a772-ee4c7bae9509")
+	)
+	(junction
+		(at 160.02 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef254790-e3ff-4e9a-b1af-b6a24f8b570d")
+	)
+	(junction
+		(at 149.86 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef33b7f5-e73c-481e-9b61-055a052622c4")
+	)
+	(junction
+		(at 129.54 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f03ae8b0-654b-49df-b429-41680f7296e0")
+	)
+	(wire
+		(pts
+			(xy 180.34 48.26) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0308acf2-4927-406f-adc0-70dca88f3b37")
+	)
+	(wire
+		(pts
+			(xy 129.54 48.26) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4e829e-fa9c-438f-a73a-4d8062a1754b")
+	)
+	(wire
+		(pts
+			(xy 93.98 53.34) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc9a088-a1ed-4f37-aeec-9b71ed4f9a43")
+	)
+	(wire
+		(pts
+			(xy 109.22 48.26) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca81946-e926-4b9d-ad0d-c7f3cae67f92")
+	)
+	(wire
+		(pts
+			(xy 139.7 48.26) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cab8a21-58c1-4238-aeed-86a8ea9aea5f")
+	)
+	(wire
+		(pts
+			(xy 144.78 53.34) (xy 149.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e176db0-efa6-41ce-a920-44d28e60255a")
+	)
+	(wire
+		(pts
+			(xy 154.94 53.34) (xy 160.02 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223a69ed-754f-4c4c-9e18-e56b2b94d88d")
+	)
+	(wire
+		(pts
+			(xy 170.18 53.34) (xy 175.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e63d98c-b75f-4aa7-ad9f-7e9add0e2c1c")
+	)
+	(wire
+		(pts
+			(xy 119.38 53.34) (xy 124.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ee0762-bbc4-45d3-8d76-847a24ab44c9")
+	)
+	(wire
+		(pts
+			(xy 134.62 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b2621f-c1c5-4d08-b22b-7ebc738b16f9")
+	)
+	(wire
+		(pts
+			(xy 165.1 53.34) (xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc3ffaf-0548-423d-b7d5-41238f31a649")
+	)
+	(wire
+		(pts
+			(xy 175.26 53.34) (xy 180.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497db822-7209-443d-bd43-6d484cb0d100")
+	)
+	(wire
+		(pts
+			(xy 124.46 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c931ea-f634-43fc-98aa-d4568aaba88d")
+	)
+	(wire
+		(pts
+			(xy 154.94 48.26) (xy 160.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65345d0f-7ec3-413a-a481-a7ca06da600c")
+	)
+	(wire
+		(pts
+			(xy 165.1 48.26) (xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789f9dbe-a29f-439f-bd4a-a4d08b6c32be")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861389fa-2c0a-458d-9a99-dab5cf2770bb")
+	)
+	(wire
+		(pts
+			(xy 160.02 48.26) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861bdc5c-d270-4cc7-90ab-5eab7ad29531")
+	)
+	(wire
+		(pts
+			(xy 139.7 53.34) (xy 144.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883643cf-9a32-4a4c-bc3f-cad4d2c593a5")
+	)
+	(wire
+		(pts
+			(xy 99.06 53.34) (xy 104.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5044a5-920b-4c39-82f4-fcc67b41fd60")
+	)
+	(wire
+		(pts
+			(xy 99.06 48.26) (xy 104.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9a1c55-6025-4714-b632-a5eee1a4f1e7")
+	)
+	(wire
+		(pts
+			(xy 124.46 53.34) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffbd6a6-c699-4279-8564-f8ec6a2e4f3e")
+	)
+	(wire
+		(pts
+			(xy 149.86 48.26) (xy 154.94 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91478ae8-4711-4fa9-b701-6786bf57cccb")
+	)
+	(wire
+		(pts
+			(xy 119.38 48.26) (xy 124.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31afd34-af9f-408b-bc7b-ead04e165b52")
+	)
+	(wire
+		(pts
+			(xy 149.86 53.34) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a648c5b3-3ce0-4fe9-9cfe-bcc7a3305637")
+	)
+	(wire
+		(pts
+			(xy 109.22 53.34) (xy 114.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b492a5af-a467-40b6-9d1a-e95f18d9b47b")
+	)
+	(wire
+		(pts
+			(xy 134.62 48.26) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdea12d1-8f12-48c9-ae59-6d0fad588df1")
+	)
+	(wire
+		(pts
+			(xy 180.34 53.34) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0119ded-891d-4764-a943-fd1a7d2b93d1")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 119.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb51d673-c36a-4336-98da-36e7c5cf2ec3")
+	)
+	(wire
+		(pts
+			(xy 129.54 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f145de-6458-45ea-b5a0-8ac2c648c8d0")
+	)
+	(wire
+		(pts
+			(xy 93.98 48.26) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce60d19-70ed-4b70-86cd-14d9ef63d2cf")
+	)
+	(wire
+		(pts
+			(xy 144.78 48.26) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c1ccac-df3f-40df-90f2-b7f0440f02d7")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 109.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e660643b-954c-4fe9-8ac2-658394db2820")
+	)
+	(wire
+		(pts
+			(xy 175.26 48.26) (xy 180.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc453bf-29f5-4faa-a787-02be456f2cd3")
+	)
+	(wire
+		(pts
+			(xy 170.18 48.26) (xy 175.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed409139-a19a-4e96-b2aa-42682be2fe02")
+	)
+	(wire
+		(pts
+			(xy 104.14 48.26) (xy 109.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f268afaa-e35c-4dc6-a729-01c98467348f")
+	)
+	(wire
+		(pts
+			(xy 160.02 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd351fa7-f870-44e5-b252-07ee463ef1bd")
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 170.18 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "100bd939-780d-4490-964f-4efe0435eb4d")
+		(property "Reference" "U16"
+			(at 170.18 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 170.18 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "57ad6bd6-09d2-4742-adac-3e1ad5585c0a")
+		)
+		(pin "3"
+			(uuid "28cecad7-8632-4a0c-8378-eb5b2b974c3f")
+		)
+		(pin "2"
+			(uuid "b7a18aa0-d9b2-4a0b-b104-99eb402b1172")
+		)
+		(pin "1"
+			(uuid "37515991-61cd-4561-ada7-2650e4fdfd01")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 124.46 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c74ab7e-13bb-46bd-9f1b-aaa3409c60de")
+		(property "Reference" "U7"
+			(at 124.46 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 124.46 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "50f2ad7f-cc13-47e9-a647-97a5d1acb1ae")
+		)
+		(pin "3"
+			(uuid "1730985b-91c6-46e9-a28e-24a2ed6554ae")
+		)
+		(pin "2"
+			(uuid "1a62b3b5-daad-4829-8d12-95545c692103")
+		)
+		(pin "1"
+			(uuid "5fa63023-515f-48f5-b99d-1ec9a9d20bec")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 154.94 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4932157d-68dc-4e8b-b6f7-cfc449ec5e8b")
+		(property "Reference" "U13"
+			(at 154.94 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 154.94 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9321bfaa-ff16-43a3-aa96-aee7e71b1fb4")
+		)
+		(pin "3"
+			(uuid "7c306a43-c270-44e3-99f4-8c3b323e84ff")
+		)
+		(pin "2"
+			(uuid "6e32d2d5-9777-4f9d-9145-af7696cdb1fd")
+		)
+		(pin "1"
+			(uuid "418fcc79-6b79-47c0-9ae4-15bc2ad1f9c0")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 104.14 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e46a63b-8966-42a9-9913-1788b975f8b2")
+		(property "Reference" "U3"
+			(at 104.14 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 104.14 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d5d5110c-c108-4360-9329-d8ea853e3434")
+		)
+		(pin "3"
+			(uuid "3f453def-b5f8-4915-8dc8-e052709147ff")
+		)
+		(pin "2"
+			(uuid "6939792e-a482-4cd7-b626-b2d461ed1124")
+		)
+		(pin "1"
+			(uuid "3ae170fd-f5df-4560-ada5-4f8b616a2182")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 99.06 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51638804-f8b4-4ec9-86bb-d9bd19139db3")
+		(property "Reference" "U2"
+			(at 99.06 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 99.06 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "477625af-e20c-47cb-be16-04623127f020")
+		)
+		(pin "3"
+			(uuid "37abd05b-85f4-4b52-ae2b-2891ea25ee77")
+		)
+		(pin "2"
+			(uuid "073ca47e-c7a4-4659-8e59-81c880e77405")
+		)
+		(pin "1"
+			(uuid "9978e192-e30f-4a34-acac-e20fa9288bb8")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 149.86 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5423fe49-d635-49ec-8f8e-e9f442e4423b")
+		(property "Reference" "U12"
+			(at 149.86 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 149.86 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "652cacfd-6ab8-490c-85ad-900beb49d451")
+		)
+		(pin "3"
+			(uuid "daa585c1-6b6f-4bea-955d-38faa5c59edf")
+		)
+		(pin "2"
+			(uuid "624ce022-fe3f-4021-9386-c2c33ccf6565")
+		)
+		(pin "1"
+			(uuid "2a5bb99b-47e4-4860-8ee7-4ca06ad60f25")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 165.1 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79356182-bb5e-413c-b177-458836938907")
+		(property "Reference" "U15"
+			(at 165.1 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 165.1 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "194624e2-8af2-435d-ab29-1ed30101e5f5")
+		)
+		(pin "3"
+			(uuid "b8cbdb0b-2328-4c94-8534-248022d30a57")
+		)
+		(pin "2"
+			(uuid "c72d3e87-412f-43fb-9d5d-a4216c7545ec")
+		)
+		(pin "1"
+			(uuid "2feec48c-91d2-4f8d-8ece-08995722ff2e")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 114.3 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ebfa20b-6d4e-47b6-86a6-c086d0e426d5")
+		(property "Reference" "U5"
+			(at 114.3 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 114.3 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f5e42fa5-5522-480d-b9bc-bb4c362f4fdf")
+		)
+		(pin "3"
+			(uuid "e4c89af4-7eb3-423e-9175-a62b55edd5b3")
+		)
+		(pin "2"
+			(uuid "7059eaa5-9455-44dd-a21e-461241aa0308")
+		)
+		(pin "1"
+			(uuid "6e24eee9-178f-4ecd-8f62-7d713783caed")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 144.78 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f9150f5-cf1d-4abf-bc79-9cdebc83f5f2")
+		(property "Reference" "U11"
+			(at 144.78 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 144.78 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "a297ecbb-511b-4512-9d16-9f3077e7006a")
+		)
+		(pin "3"
+			(uuid "15ca0670-e877-4b36-aea8-88445de45b1a")
+		)
+		(pin "2"
+			(uuid "a77d0f36-d918-49bf-bb91-3b28b1ee00f8")
+		)
+		(pin "1"
+			(uuid "8b53da58-467d-4b5d-879c-f4264bf6de59")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 180.34 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92db4dae-4a3e-4a65-8a9c-eb208279f3c1")
+		(property "Reference" "U18"
+			(at 180.34 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 180.34 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "c4708b79-d49f-4f7d-88c8-79d2445fbde4")
+		)
+		(pin "3"
+			(uuid "81df0177-e711-405d-bb9a-a4cf9eb7fb51")
+		)
+		(pin "2"
+			(uuid "e7108cb4-a671-4958-8e11-ea921f366749")
+		)
+		(pin "1"
+			(uuid "1fdbb68e-0d17-4da1-9e42-16d012550f4c")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 134.62 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "935552e7-ef36-494f-9ffc-668d4f1e138b")
+		(property "Reference" "U9"
+			(at 134.62 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 134.62 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "b9f9d2f9-9316-4d64-acd0-0db2eca17c80")
+		)
+		(pin "3"
+			(uuid "a8aafab9-c299-44e9-bb5a-6bfbe5971ca4")
+		)
+		(pin "2"
+			(uuid "4cc65ad8-df19-4640-85b6-1a0edeb75028")
+		)
+		(pin "1"
+			(uuid "c223d00b-8fcf-432d-8057-ad4b48ad9c68")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 175.26 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "969f551e-1b54-4072-92e3-1b623e0aa064")
+		(property "Reference" "U17"
+			(at 175.26 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 175.26 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "58bbcb95-64fe-4a0f-8856-9fe811fed1c2")
+		)
+		(pin "3"
+			(uuid "29cbfffe-eff4-4530-a72f-3a0703532758")
+		)
+		(pin "2"
+			(uuid "b400bdc9-4349-412f-b5c2-d581a76cc40d")
+		)
+		(pin "1"
+			(uuid "fe13c147-deb5-4b1f-8dfc-19cfee478c88")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 129.54 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad308c7b-7557-4747-9202-3d1f4397edf6")
+		(property "Reference" "U8"
+			(at 129.54 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 129.54 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "91eb0489-ed20-4ba7-9bf1-62103919bdd9")
+		)
+		(pin "3"
+			(uuid "7931f67a-d910-4596-9f95-60bf0db5ac4a")
+		)
+		(pin "2"
+			(uuid "9aa5c39e-6c53-428d-8f4f-954241bfa34c")
+		)
+		(pin "1"
+			(uuid "c80b07dd-94e1-4f8d-a821-efb1dfa9d177")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 93.98 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7473f9e-98af-487f-965f-a36e043c2cc2")
+		(property "Reference" "U1"
+			(at 93.98 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 93.98 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "00a8a5d5-6190-4cb8-a9b2-b5bbbbeca85f")
+		)
+		(pin "3"
+			(uuid "bf38a549-7196-44d6-b551-c05c17402d1a")
+		)
+		(pin "2"
+			(uuid "8df64aae-77ff-40ab-a52f-b6922680f1fd")
+		)
+		(pin "1"
+			(uuid "64a6b156-0202-4344-be72-3e9bee7293c4")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 160.02 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf814196-e118-4ead-a605-5d46d8fc36aa")
+		(property "Reference" "U14"
+			(at 160.02 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 160.02 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d182a89c-6643-4f62-91e8-e46e1402cb93")
+		)
+		(pin "3"
+			(uuid "452afac3-6062-4779-a6fa-0646bfbbcb9b")
+		)
+		(pin "2"
+			(uuid "cef19e83-6ddd-45c9-8d0c-ab74cbe82a58")
+		)
+		(pin "1"
+			(uuid "0167bb1c-d4b5-413f-9357-b0713031037c")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 139.7 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c34f365c-5fbb-4684-9f0b-4bae13b6f285")
+		(property "Reference" "U10"
+			(at 139.7 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 139.7 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "2f386796-1a54-4ae5-b3af-a8b80c702b58")
+		)
+		(pin "3"
+			(uuid "d746d951-1bac-4b8b-8f09-f7c8fd88feb6")
+		)
+		(pin "2"
+			(uuid "af896a36-1adb-4573-9d0b-a349c13315b4")
+		)
+		(pin "1"
+			(uuid "10126cd9-1a19-4097-b19a-bee47352a9c0")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 119.38 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee25d5a2-b63d-4bd3-aefa-951e3f6be94a")
+		(property "Reference" "U6"
+			(at 119.38 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 119.38 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "ba36b125-d92a-48e4-bb72-9e638eae7a69")
+		)
+		(pin "3"
+			(uuid "75364c16-78d4-4973-9f33-47b26a53ff79")
+		)
+		(pin "2"
+			(uuid "6a6b1f1d-5afb-4c10-848a-57fe268ba5f4")
+		)
+		(pin "1"
+			(uuid "caa62025-9096-4042-acb7-f88cdaa4e67a")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JumperlessSymbols:xl-1010RGBC_Small")
+		(at 109.22 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffbcee78-87ff-4778-a459-b6546ef12675")
+		(property "Reference" "U4"
+			(at 109.22 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 109.22 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "6fa66157-f237-49cb-8d0d-70740d9eb061")
+		)
+		(pin "3"
+			(uuid "519c0d32-6442-4984-a45b-d9bf0c6520d8")
+		)
+		(pin "2"
+			(uuid "c01e72c0-4294-4bd1-a5bc-63865c20ca13")
+		)
+		(pin "1"
+			(uuid "8b3678e8-4583-46b4-ac74-2588dac6319f")
+		)
+		(instances
+			(project "Jerorack"
+				(path "/5d84b3a6-9084-47af-a349-5aca678f048f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

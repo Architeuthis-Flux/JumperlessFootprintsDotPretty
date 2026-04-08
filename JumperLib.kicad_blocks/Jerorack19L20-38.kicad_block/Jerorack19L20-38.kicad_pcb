@@ -1,0 +1,3517 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(grid_origin 90.471994 97.841797)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "06a4f1cd-7540-4e0a-898a-48deafe75e3d")
+		(at 169.682881 40.939861 -50)
+		(property "Reference" "U31"
+			(at 0.070013 0.019998 310)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ee63a871-708d-46e0-b5e8-2f2c7fadad0c")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004994 1.205001 310)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67f19522-db75-4304-9c9e-85350797d2e3")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 310)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "292dcb59-6eea-4f2e-97e7-72c758888dfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 310)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e905bd0a-f2da-4d72-b311-a25cc5af1e35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 310)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94d4601b-ec1b-4516-a8e7-38628d391ca3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239814 -0.625094) (xy -0.218887 -0.61111) (xy -0.204916 -0.590189) (xy -0.199995 -0.565502)
+				(xy -0.199997 -0.264503) (xy -0.204909 -0.239822) (xy -0.218902 -0.218894) (xy -0.23981 -0.20491)
+				(xy -0.264492 -0.200009) (xy -0.5655 -0.199991) (xy -0.59019 -0.204903) (xy -0.611109 -0.218883)
+				(xy -0.625092 -0.239814) (xy -0.630005 -0.264495) (xy -0.629995 -0.565509) (xy -0.625088 -0.590185)
+				(xy -0.611103 -0.611102) (xy -0.590185 -0.625101) (xy -0.5655 -0.630003) (xy -0.264497 -0.630001)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "ae21bb51-7de4-4b8a-8595-851250ea3423")
+		)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.499992) (xy 0.499992 -0.5) (xy 0.5 0.499992) (xy -0.499992 0.5)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "8f3d348f-7acf-4cf3-84a6-ca6a91877dcb")
+		)
+		(pad "1" smd roundrect
+			(at -0.414992 -0.415004 310)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "e3fc2332-ee9b-43d0-9813-2cc46c08feb1")
+		)
+		(pad "2" smd roundrect
+			(at 0.415004 -0.414992 310)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "264dd4c0-130e-44f7-9b17-e35481c06e2f")
+		)
+		(pad "3" smd roundrect
+			(at -0.415004 0.414992 310)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "bc0bf3c5-1420-4860-bd34-14b0c0cfad61")
+		)
+		(pad "4" smd roundrect
+			(at 0.414992 0.415004 310)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "b3d6230a-2a68-44e3-b4c3-3665344ce200")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "2655ba0c-9fb9-4d6b-ad31-e41dd13a23f3")
+		(at 175.311711 39.692925 120)
+		(property "Reference" "U36"
+			(at 0.070001 0.02 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5418534e-7ddb-4848-98a8-45b08ca73cf2")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.005 1.204999 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed40216f-5c09-4380-94df-7175a2bbba74")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18507360-70d1-42bb-b7ce-d4d27ada3057")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dca4320-3af7-4df1-843d-e83981fb0e7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 120)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19921767-7ecb-44c0-bee2-5e866c946a8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239814 -0.62509) (xy -0.218891 -0.611108) (xy -0.204909 -0.590181) (xy -0.2 -0.565494) (xy -0.199994 -0.264499)
+				(xy -0.204912 -0.23982) (xy -0.218888 -0.218891) (xy -0.239816 -0.204909) (xy -0.264497 -0.199999)
+				(xy -0.565504 -0.200003) (xy -0.590187 -0.204912) (xy -0.611107 -0.218891) (xy -0.625088 -0.239818)
+				(xy -0.629997 -0.2645) (xy -0.630001 -0.565494) (xy -0.625089 -0.590184) (xy -0.611111 -0.611102)
+				(xy -0.59018 -0.62509) (xy -0.565495 -0.630005) (xy -0.264497 -0.630002)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "b3b2bda1-f6c2-458e-9801-ce9acb1cca9a")
+		)
+		(fp_poly
+			(pts
+				(xy -0.500001 -0.500003) (xy 0.500003 -0.500001) (xy 0.500001 0.500003) (xy -0.500003 0.500001)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "730e3740-d8e0-43c6-83c5-bb8a0bc14fc7")
+		)
+		(pad "1" smd roundrect
+			(at -0.414999 -0.414998 120)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "9e36ca8a-e906-489e-b8ac-a5de5266d4d8")
+		)
+		(pad "2" smd roundrect
+			(at 0.414998 -0.414999 120)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "75cb42ba-b473-433f-9da9-91a667406411")
+		)
+		(pad "3" smd roundrect
+			(at -0.414998 0.414999 120)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "58f9a0d8-bed3-4b3d-8942-ad28d7487bd6")
+		)
+		(pad "4" smd roundrect
+			(at 0.414999 0.414998 120)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "4dcbaf11-91ef-4bec-bb42-f89cf95c8369")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "2c0cfd9f-4f21-477b-a8ae-d16aafdeea15")
+		(at 173.0645 40.990352 -105)
+		(property "Reference" "U26"
+			(at 0.070017 0.020017 255)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fa8a289d-c65b-4763-bae8-581e1b1912e2")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004999 1.204996 255)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64f26a90-1361-4441-a3cd-b6e5e17bbaa3")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 255)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c77a142-99cc-48a1-aba8-31210a3e8e9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 255)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8999b737-5b63-482a-b6f4-1cbd18314d6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 255)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6e7b589-2234-43bc-ad28-087bd4c8d8ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239808 -0.625096) (xy -0.218891 -0.611107) (xy -0.204911 -0.590175) (xy -0.200005 -0.565498)
+				(xy -0.200005 -0.264493) (xy -0.204911 -0.239825) (xy -0.21888 -0.218895) (xy -0.239805 -0.204906)
+				(xy -0.264498 -0.200002) (xy -0.565492 -0.200004) (xy -0.590181 -0.204917) (xy -0.611112 -0.218896)
+				(xy -0.625085 -0.239817) (xy -0.629991 -0.264503) (xy -0.629997 -0.565493) (xy -0.625097 -0.590177)
+				(xy -0.611108 -0.611108) (xy -0.59019 -0.625085) (xy -0.565503 -0.630002) (xy -0.264488 -0.630008)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "eba83db2-d61f-40f7-9bcd-4f6f24b61234")
+		)
+		(fp_poly
+			(pts
+				(xy -0.499993 -0.500009) (xy 0.500009 -0.499993) (xy 0.499993 0.500009) (xy -0.500009 0.499993)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "cb16bc97-bd70-4571-8884-ffc014206a56")
+		)
+		(pad "1" smd roundrect
+			(at -0.414999 -0.414998 255)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "07e131f5-9553-4e36-9b72-245509e12526")
+		)
+		(pad "2" smd roundrect
+			(at 0.414998 -0.414999 255)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "f95372e4-21e3-441f-a9d3-96528f626d67")
+		)
+		(pad "3" smd roundrect
+			(at -0.414998 0.414999 255)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "7b5b75e9-1a00-4c43-8dce-102748134ad1")
+		)
+		(pad "4" smd roundrect
+			(at 0.414999 0.414998 255)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "55905d36-9d7f-4aa9-8d6c-a234d07aca7d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "4219eaf1-bc73-4707-95b7-3a7cd035eb37")
+		(at 173.0201 43.662084 -90)
+		(property "Reference" "U22"
+			(at 0.069999 0.02 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "787c7602-e0a2-4607-91e7-214bcc44e56a")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.005003 1.205 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aef7aef1-3548-4d73-83b9-1f8cf65f613b")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93b053d6-d721-4555-93c8-9beda02c4887")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc8cbf8f-0f18-4bc0-b5c4-c3c26622acc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d036706e-f6d0-46d0-ab0c-a764e43f34f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239814 -0.625089) (xy -0.218892 -0.611108) (xy -0.20491 -0.59018) (xy -0.199999 -0.565493)
+				(xy -0.199995 -0.264496) (xy -0.20491 -0.239819) (xy -0.218889 -0.21889) (xy -0.239813 -0.20491)
+				(xy -0.264497 -0.199994) (xy -0.565502 -0.200006) (xy -0.590186 -0.204914) (xy -0.611106 -0.218891)
+				(xy -0.625086 -0.239817) (xy -0.629992 -0.264502) (xy -0.630003 -0.565492) (xy -0.625092 -0.590186)
+				(xy -0.611111 -0.611101) (xy -0.590176 -0.625091) (xy -0.565497 -0.630006) (xy -0.264498 -0.63)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "2a064e46-9e0a-4276-8048-d1ed85e7849c")
+		)
+		(fp_poly
+			(pts
+				(xy -0.499997 -0.500007) (xy 0.500007 -0.499997) (xy 0.499997 0.500007) (xy -0.500007 0.499997)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "5b7c2e40-0eef-4ee4-9318-84190c87d028")
+		)
+		(pad "1" smd roundrect
+			(at -0.415 -0.414996 270)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "58dc5dba-7c97-4315-bc32-41236cb7a868")
+		)
+		(pad "2" smd roundrect
+			(at 0.414996 -0.415 270)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "8d70aacc-b90c-4bce-a4db-b09df45622e0")
+		)
+		(pad "3" smd roundrect
+			(at -0.414996 0.415 270)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "c68513de-8c7b-4a4c-a25b-aa1ef33efc60")
+		)
+		(pad "4" smd roundrect
+			(at 0.415 0.414996 270)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "f3b01eb4-954d-4c41-946e-c7f37814522d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "531bcba9-b12c-4a10-9e60-40a5d2c482a5")
+		(at 171.423809 41.051828 127.5)
+		(property "Reference" "U30"
+			(at 0.070011 0.020009 127.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "72fefd38-42f5-4bc5-9014-d83514a96c85")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004998 1.204993 127.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5dd55b9-05c7-4561-87c8-4049b4d650fe")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 127.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4f952b8-b9f6-40fd-b56a-7f063ad4152f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 127.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8521c611-e4c2-49a2-bdab-08c6e537a979")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 127.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83c8915e-2802-4a6d-9f7a-0425a59b1bbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239816 -0.625091) (xy -0.218891 -0.611109) (xy -0.204914 -0.59018) (xy -0.200003 -0.565497)
+				(xy -0.199994 -0.264502) (xy -0.204907 -0.239812) (xy -0.21889 -0.218895) (xy -0.239817 -0.204914)
+				(xy -0.264496 -0.200002) (xy -0.565502 -0.200004) (xy -0.590185 -0.204911) (xy -0.611107 -0.218896)
+				(xy -0.625088 -0.239817) (xy -0.629998 -0.264499) (xy -0.629998 -0.565494) (xy -0.625091 -0.590183)
+				(xy -0.61111 -0.611108) (xy -0.590182 -0.625091) (xy -0.565501 -0.630002) (xy -0.2645 -0.630001)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "db35bec9-85ae-422d-b1aa-dfc143085f1f")
+		)
+		(fp_poly
+			(pts
+				(xy -0.499999 -0.500001) (xy 0.500001 -0.499999) (xy 0.499999 0.500001) (xy -0.500001 0.499999)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "aeab8d25-2940-451a-9978-4d879076fd5d")
+		)
+		(pad "1" smd roundrect
+			(at -0.414999 -0.415001 127.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "7a0040f7-a33b-4815-b5e6-7a348fbe7860")
+		)
+		(pad "2" smd roundrect
+			(at 0.415001 -0.414999 127.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "5c01b66f-a557-4e24-b47a-5714a37d28ea")
+		)
+		(pad "3" smd roundrect
+			(at -0.415001 0.414999 127.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "727111a9-33da-4c5c-be8f-78d0ef9603cf")
+		)
+		(pad "4" smd roundrect
+			(at 0.414999 0.415001 127.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "2b3406cf-a73e-423d-9cd8-5765d25bb35d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "5c63f429-7421-4b7f-b121-0bbddad86558")
+		(at 173.791115 39.608863 7.5)
+		(property "Reference" "U28"
+			(at 0.070009 0.020007 37.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "202dfcb9-bac9-42be-b098-57f3c4c001d2")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004999 1.204991 7.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fafd7da0-df63-446c-b037-033f18328933")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 7.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1212c686-7758-4834-8926-d925d9de6776")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 7.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0a50ace-f4d4-4631-bd20-901095b2bea1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 7.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7b507fd-11b5-4b64-a223-84a0f7e489ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239817 -0.625091) (xy -0.218892 -0.611109) (xy -0.204914 -0.590182) (xy -0.200004 -0.5655)
+				(xy -0.2 -0.264499) (xy -0.204909 -0.239816) (xy -0.218892 -0.218892) (xy -0.239819 -0.204908) (xy -0.2645 -0.200003)
+				(xy -0.5655 -0.200001) (xy -0.590183 -0.204907) (xy -0.611106 -0.218893) (xy -0.625091 -0.239816)
+				(xy -0.630001 -0.2645) (xy -0.629998 -0.565498) (xy -0.625091 -0.590184) (xy -0.611108 -0.611109)
+				(xy -0.590182 -0.62509) (xy -0.565501 -0.630002) (xy -0.264498 -0.629999)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "d16610ee-baff-45fb-82e6-b876b5a033fb")
+		)
+		(fp_poly
+			(pts
+				(xy -0.500002 -0.5) (xy 0.5 -0.500002) (xy 0.500002 0.5) (xy -0.5 0.500002)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "a62f3843-3a5d-4b62-a0ba-1df40a1efecb")
+		)
+		(pad "1" smd roundrect
+			(at -0.414997 -0.415 7.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "98bd7baa-20c7-4f03-81ee-f69baae3fae1")
+		)
+		(pad "2" smd roundrect
+			(at 0.415 -0.414997 7.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "1ede8c16-ad6b-4bed-b742-9702f67f9593")
+		)
+		(pad "3" smd roundrect
+			(at -0.415 0.414997 7.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "4d603415-a6cd-472b-8a0e-04d41aef9cbb")
+		)
+		(pad "4" smd roundrect
+			(at 0.414997 0.415 7.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "a7c80df2-ec93-44d1-86bd-4a0c75660158")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "6757f8d8-a868-4d01-9ee5-2348cff472df")
+		(at 176.35789 40.939716 140)
+		(property "Reference" "U37"
+			(at 0.070002 0.020001 140)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8150f99e-6823-4450-8368-5fcb16b341ce")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004998 1.204992 140)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1510f6b2-bb97-4830-90bf-3c2c1004a74a")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 140)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ab0831c-bd46-4418-9d2f-7f8e7f47ca89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 140)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74a8f691-6316-4b0d-93aa-2972af7f61fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 140)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce9e3f34-093d-402d-9dd5-f71b842ac2db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.23982 -0.625093) (xy -0.218892 -0.611104) (xy -0.204914 -0.59018) (xy -0.200007 -0.565501)
+				(xy -0.200001 -0.264495) (xy -0.204909 -0.23982) (xy -0.218888 -0.218892) (xy -0.239816 -0.204907)
+				(xy -0.264499 -0.200001) (xy -0.565495 -0.199996) (xy -0.590182 -0.20491) (xy -0.611107 -0.218896)
+				(xy -0.625094 -0.239819) (xy -0.629999 -0.264497) (xy -0.629996 -0.565501) (xy -0.625089 -0.590179)
+				(xy -0.611105 -0.611109) (xy -0.59018 -0.62509) (xy -0.565498 -0.630002) (xy -0.264498 -0.630001)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "091ab77a-67f6-43a1-a886-7ad98dc76319")
+		)
+		(fp_poly
+			(pts
+				(xy -0.500002 -0.500002) (xy 0.500002 -0.500002) (xy 0.500002 0.500002) (xy -0.500002 0.500002)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "afa865ec-8c04-4bc4-a66f-c6df783ed076")
+		)
+		(pad "1" smd roundrect
+			(at -0.414994 -0.415002 140)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "c8cd985f-3d00-446c-b993-2fb2fc864375")
+		)
+		(pad "2" smd roundrect
+			(at 0.415002 -0.414994 140)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "9ba2afdf-3c0e-47ac-ad43-1eca6700f47d")
+		)
+		(pad "3" smd roundrect
+			(at -0.415002 0.414994 140)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "a594e642-5baf-4ed9-a596-19a42c01d267")
+		)
+		(pad "4" smd roundrect
+			(at 0.414994 0.415002 140)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "77029384-e41d-48c0-8d6e-b0f17f06518b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "835da2b9-b9d7-472d-89f2-76ae66f4c937")
+		(at 174.624211 41.051832 -37.5)
+		(property "Reference" "U27"
+			(at 0.069995 0.019997 322.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3f218494-fae1-4ec5-97a9-0b8f0a341981")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004997 1.204986 322.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "347d5ffa-0940-413f-a91f-c2f74c4614ab")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 322.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b93dfb8c-5764-4531-8d5e-e898e2bad4b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 322.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36ee639c-e942-475d-82bc-4fd5199c15ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 322.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d1663bf-a451-453f-a9b2-3b0f2392aaec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239815 -0.625091) (xy -0.218888 -0.611107) (xy -0.204911 -0.590183) (xy -0.199997 -0.565493)
+				(xy -0.199992 -0.2645) (xy -0.20491 -0.239826) (xy -0.218891 -0.21889) (xy -0.239802 -0.204915)
+				(xy -0.264496 -0.199996) (xy -0.565498 -0.200005) (xy -0.590187 -0.204917) (xy -0.611108 -0.218891)
+				(xy -0.625094 -0.23982) (xy -0.629988 -0.264502) (xy -0.62999 -0.5655) (xy -0.625091 -0.590183)
+				(xy -0.611108 -0.611111) (xy -0.59018 -0.625089) (xy -0.5655 -0.629997) (xy -0.2645 -0.630007)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "b602a914-8230-43f9-84d6-d1720fb835c6")
+		)
+		(fp_poly
+			(pts
+				(xy -0.499997 -0.500003) (xy 0.500003 -0.499997) (xy 0.499997 0.500003) (xy -0.500003 0.499997)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "7ba05228-2bd3-4f81-b3c4-52a2e5426a70")
+		)
+		(pad "1" smd roundrect
+			(at -0.415006 -0.414998 322.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "da1d7822-2b0d-4639-b2e7-546545c27802")
+		)
+		(pad "2" smd roundrect
+			(at 0.414998 -0.415006 322.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "62d937a0-80d2-4dec-ab5d-bbff1a5133a9")
+		)
+		(pad "3" smd roundrect
+			(at -0.414998 0.415006 322.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "9a6d00dc-e7de-40cd-afed-d9563dcc3fa8")
+		)
+		(pad "4" smd roundrect
+			(at 0.415006 0.414998 322.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "55c7707f-2db4-43b4-89a9-15780d509f45")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "83ff1cb9-ec1c-4e3a-b5fd-b8e2a36f8b03")
+		(at 175.491502 42.440786 150)
+		(property "Reference" "U38"
+			(at 0.070008 0.020001 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a00e3c09-94e4-4bd2-9435-1fed3d8b4575")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004993 1.204995 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec5db31d-2aaa-41d6-a08b-40840bbff949")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b47ce22-85b9-42f7-9cd5-7055ea3ecc9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ea9d34d-d325-41cb-949e-b00b61cc9d78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4936a5b3-d921-4c14-bef0-aaa67673fc0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239815 -0.625091) (xy -0.218895 -0.611099) (xy -0.204908 -0.590178) (xy -0.2 -0.565489) (xy -0.199993 -0.264488)
+				(xy -0.204906 -0.239814) (xy -0.218888 -0.218889) (xy -0.239813 -0.204916) (xy -0.264494 -0.199999)
+				(xy -0.565486 -0.200005) (xy -0.590186 -0.204921) (xy -0.611103 -0.218897) (xy -0.625084 -0.239817)
+				(xy -0.629984 -0.264503) (xy -0.63 -0.565506) (xy -0.625097 -0.590192) (xy -0.611104 -0.611099)
+				(xy -0.590183 -0.6251) (xy -0.565504 -0.629998) (xy -0.264503 -0.629993)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "35006c9e-2c96-46a5-a5e7-f495849fa4b2")
+		)
+		(fp_poly
+			(pts
+				(xy -0.499998 -0.500005) (xy 0.500005 -0.499998) (xy 0.499998 0.500005) (xy -0.500005 0.499998)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "1014d893-409b-49d7-b788-10423e8ce150")
+		)
+		(pad "1" smd roundrect
+			(at -0.415006 -0.415009 150)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "164ae76f-555e-4505-bea0-4add83592971")
+		)
+		(pad "2" smd roundrect
+			(at 0.415009 -0.415006 150)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "b484b2db-26ee-45f6-9fed-2c709c4361f3")
+		)
+		(pad "3" smd roundrect
+			(at -0.415009 0.415006 150)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "1f95d632-9df8-4dc0-9ef1-5c2ecb90c523")
+		)
+		(pad "4" smd roundrect
+			(at 0.415006 0.415009 150)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "d6cdd334-6b91-4774-8eb3-bb60a34b083c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "9097e81b-39d0-4413-a5e6-e0c846167089")
+		(at 174.75505 38.163516 -170)
+		(property "Reference" "U35"
+			(at 0.070013 0.019998 190)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "141cf2a5-1f16-4d5e-9ab1-f0e4892cdc45")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004995 1.205 190)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a043bcc-41f5-4c83-8872-d73186bc38a7")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 190)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5d90b2f-35d1-44a8-9db7-5ad3ce2f4d19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 190)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ee07138-3602-425e-8c7b-4990236412ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 190)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31d73e39-48fe-4ecd-a340-4bc66ce6a078")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239816 -0.625093) (xy -0.218888 -0.61111) (xy -0.204916 -0.590192) (xy -0.199996 -0.565499)
+				(xy -0.199996 -0.2645) (xy -0.204909 -0.239822) (xy -0.2189 -0.218895) (xy -0.239811 -0.204912)
+				(xy -0.264492 -0.200008) (xy -0.5655 -0.199989) (xy -0.590191 -0.2049) (xy -0.611105 -0.218883)
+				(xy -0.625092 -0.239814) (xy -0.630005 -0.264496) (xy -0.629992 -0.565509) (xy -0.62509 -0.590183)
+				(xy -0.611103 -0.611104) (xy -0.590185 -0.6251) (xy -0.565499 -0.630002) (xy -0.264497 -0.630001)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "b3ee25ae-2f8d-40e5-be0c-1b787593f725")
+		)
+		(fp_poly
+			(pts
+				(xy -0.500001 -0.499992) (xy 0.499992 -0.500001) (xy 0.500001 0.499992) (xy -0.499992 0.500001)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "6cbdf8d9-1c40-433c-bcb8-4680962fa8bb")
+		)
+		(pad "1" smd roundrect
+			(at -0.414991 -0.415006 190)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "83da651c-25ec-4973-9a29-f52aaa2e9c27")
+		)
+		(pad "2" smd roundrect
+			(at 0.415006 -0.414991 190)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "ce5bf17e-29d6-4bf2-a2f9-3e8cc0bbf209")
+		)
+		(pad "3" smd roundrect
+			(at -0.415006 0.414991 190)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "1441f8bc-ce08-4b30-886b-eef179feacd3")
+		)
+		(pad "4" smd roundrect
+			(at 0.414991 0.415006 190)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "fdc3d9be-607e-4cc2-9a5d-2a509f4fe474")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "a61fd11f-7ddc-47cf-8a39-b770e7376374")
+		(at 171.417257 43.944706 -160)
+		(property "Reference" "U21"
+			(at 0.070004 0.019999 200)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "507c7edb-fd26-48b5-80cf-d2c3aa755b12")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004995 1.204993 200)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d449f817-5231-4a2b-b783-a239ebd5013c")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 200)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b192524b-1caa-4a44-920f-bd32c49933dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 200)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a930d705-83c6-463f-800d-f0bf6e0d15ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 200)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25e267c0-43d7-4869-b3cd-1dc25f2804e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.23982 -0.625095) (xy -0.218893 -0.6111) (xy -0.204917 -0.590181) (xy -0.200007 -0.565505)
+				(xy -0.200002 -0.264494) (xy -0.20491 -0.239817) (xy -0.21889 -0.21889) (xy -0.239812 -0.204904)
+				(xy -0.264497 -0.200001) (xy -0.565497 -0.199993) (xy -0.590184 -0.204907) (xy -0.611106 -0.218899)
+				(xy -0.625094 -0.239818) (xy -0.629999 -0.264496) (xy -0.629994 -0.565499) (xy -0.625091 -0.590178)
+				(xy -0.611103 -0.611109) (xy -0.590183 -0.62509) (xy -0.5655 -0.630001) (xy -0.264501 -0.630004)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "fdfc997a-5f74-46ec-9d1b-7ecd93b39936")
+		)
+		(fp_poly
+			(pts
+				(xy -0.500002 -0.500004) (xy 0.500004 -0.500002) (xy 0.500002 0.500004) (xy -0.500004 0.500002)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "1b268bb1-99cd-4e34-ba7d-42753f668e4c")
+		)
+		(pad "1" smd roundrect
+			(at -0.414991 -0.415002 200)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "31bc9306-909f-41b4-bf61-3d1cdc4ba830")
+		)
+		(pad "2" smd roundrect
+			(at 0.415002 -0.414991 200)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "02df2ebb-079f-4f9e-bfe0-4e0444d08bc5")
+		)
+		(pad "3" smd roundrect
+			(at -0.415002 0.414991 200)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "1af35e00-7bb5-4fe7-8366-e5d710e9fc39")
+		)
+		(pad "4" smd roundrect
+			(at 0.414991 0.415002 200)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "19a30357-73c2-48e1-9d6a-99eddb695a4e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "b6e862dd-6f8b-48ee-9d99-45a8a908430d")
+		(at 172.256907 39.608868 82.5)
+		(property "Reference" "U29"
+			(at 0.069995 0.019996 82.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1f07a100-e143-4d26-b221-fcf1f5cd6ac8")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004998 1.204983 82.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44c35a6d-3be0-474e-8f23-da3367e066ab")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 82.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3955d17c-ce33-44e3-a8a7-c1b95ba5644e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 82.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b92caeed-03d5-4400-8148-520f15a2e944")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 82.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39717176-489b-4934-aca3-ff87c72a428f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239814 -0.625089) (xy -0.21889 -0.611105) (xy -0.204914 -0.590182) (xy -0.199998 -0.565491)
+				(xy -0.199995 -0.264495) (xy -0.204912 -0.239823) (xy -0.218893 -0.218892) (xy -0.239806 -0.204915)
+				(xy -0.264498 -0.199994) (xy -0.565498 -0.200004) (xy -0.590186 -0.204919) (xy -0.611108 -0.218891)
+				(xy -0.625098 -0.239818) (xy -0.629988 -0.264505) (xy -0.629991 -0.565502) (xy -0.625092 -0.590182)
+				(xy -0.61111 -0.611106) (xy -0.590174 -0.625088) (xy -0.565501 -0.629998) (xy -0.264499 -0.630005)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "1a095734-359f-4e06-875c-2a9e689af242")
+		)
+		(fp_poly
+			(pts
+				(xy -0.499997 -0.500005) (xy 0.500005 -0.499997) (xy 0.499997 0.500005) (xy -0.500005 0.499997)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "34ba5327-36b0-4932-930f-52b4f06019a4")
+		)
+		(pad "1" smd roundrect
+			(at -0.415009 -0.414997 82.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "ea4f692d-ccef-469e-8ad8-5d3adca72e1e")
+		)
+		(pad "2" smd roundrect
+			(at 0.414997 -0.415009 82.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "92f65ad6-a4ce-4277-ab50-4d8d6ff7e5ea")
+		)
+		(pad "3" smd roundrect
+			(at -0.414997 0.415009 82.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "429be7b1-d31e-494f-916f-8372bc0652e6")
+		)
+		(pad "4" smd roundrect
+			(at 0.415009 0.414997 82.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "3c45e642-4692-47bf-b114-0fc6ea67bbbb")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "cfdade50-e785-4426-85bb-e2048c028d04")
+		(at 170.554399 42.437113 -150)
+		(property "Reference" "U20"
+			(at 0.070007 0.020005 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d8ded6a4-58d7-4496-9a8a-ccc14390de08")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.005001 1.204993 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33ee568d-31d3-4254-ba99-ed0376839ecc")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67947317-a89a-4140-9869-8c41ea75662b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85ba89a6-8806-422c-8c98-0f92e3cc3bb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38a9801e-d2cd-4614-bbbf-e0fcbc0ace37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239812 -0.625089) (xy -0.218892 -0.611101) (xy -0.204907 -0.590178) (xy -0.199999 -0.565496)
+				(xy -0.199997 -0.264503) (xy -0.204911 -0.239816) (xy -0.218885 -0.21889) (xy -0.239815 -0.204912)
+				(xy -0.264498 -0.200001) (xy -0.565495 -0.200006) (xy -0.590188 -0.204913) (xy -0.611105 -0.218899)
+				(xy -0.625086 -0.239817) (xy -0.629998 -0.2645) (xy -0.629998 -0.565504) (xy -0.625095 -0.590184)
+				(xy -0.611107 -0.611108) (xy -0.590189 -0.625089) (xy -0.565505 -0.629998) (xy -0.264495 -0.630006)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "940701c6-9aa9-4130-af5c-cc36a1271171")
+		)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.5) (xy 0.5 -0.5) (xy 0.5 0.5) (xy -0.5 0.5)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "86c6a5ef-82a2-4758-8fca-75046808a171")
+		)
+		(pad "1" smd roundrect
+			(at -0.414999 -0.415003 210)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "ab72b8fd-fc1e-4d9c-a721-65cc136e27d1")
+		)
+		(pad "2" smd roundrect
+			(at 0.415003 -0.414999 210)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "e0dd0160-1125-4e2b-9ef0-3dff75eee3d2")
+		)
+		(pad "3" smd roundrect
+			(at -0.415003 0.414999 210)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "086d359a-e47f-45f9-a56b-6001c6286457")
+		)
+		(pad "4" smd roundrect
+			(at 0.414999 0.415003 210)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "6ee6003a-db6a-4e2c-88d9-39f2fa41e63e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "d97885b1-6a5d-4c0d-a499-9ef1c381b2b8")
+		(at 174.622942 43.944704 -110)
+		(property "Reference" "U23"
+			(at 0.070008 0.020002 250)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a0955093-05c1-48ea-85f6-22a50de85f1e")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004991 1.204999 250)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf7fbc51-f86d-48e3-9f30-8081c8a7b748")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 250)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df172119-f00b-4243-b33e-78a25c8f1ce5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 250)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78b2d492-4e95-4f9b-b474-f9b6b049d53c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 250)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "737e1c13-fd65-4143-be0e-f5bedc192527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239815 -0.625089) (xy -0.218889 -0.611113) (xy -0.204922 -0.590185) (xy -0.199993 -0.565508)
+				(xy -0.200001 -0.264499) (xy -0.204906 -0.239827) (xy -0.218894 -0.218888) (xy -0.23981 -0.204911)
+				(xy -0.264494 -0.200007) (xy -0.565499 -0.19999) (xy -0.590191 -0.204909) (xy -0.611107 -0.218881)
+				(xy -0.625085 -0.239813) (xy -0.630006 -0.264501) (xy -0.629995 -0.565504) (xy -0.62509 -0.590183)
+				(xy -0.611108 -0.611103) (xy -0.590187 -0.625099) (xy -0.5655 -0.630002) (xy -0.264503 -0.630005)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "5d8543d0-972c-490c-af66-1d266f469390")
+		)
+		(fp_poly
+			(pts
+				(xy -0.500003 -0.499993) (xy 0.499993 -0.500003) (xy 0.500003 0.499993) (xy -0.499993 0.500003)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "d8de3f5a-2547-410d-a444-c0af1353e59f")
+		)
+		(pad "1" smd roundrect
+			(at -0.414993 -0.414995 250)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "7e9a22a8-8084-4232-b5c2-0ce0debeca02")
+		)
+		(pad "2" smd roundrect
+			(at 0.414995 -0.414993 250)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "94902ebf-e6cd-413f-8e40-6aa8e34eb2e2")
+		)
+		(pad "3" smd roundrect
+			(at -0.414995 0.414993 250)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "6ade5d6b-6a2f-4746-a064-5194a03e61c3")
+		)
+		(pad "4" smd roundrect
+			(at 0.414993 0.414995 250)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "cdb52af2-cab0-49c0-8937-ee2c502c00df")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "e92b42b0-929e-4109-91a4-87c9ca5a2db0")
+		(at 173.026127 38.163297 180)
+		(property "Reference" "U34"
+			(at 0.070004 0.020002 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "20a4f9d4-709a-4d3f-ba6b-694fc2012a67")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004999 1.204992 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbcf8276-bea2-4f79-a350-c36da90eeed4")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12110f69-3cfe-476f-8f3d-a30f945b4b26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eca70d79-dc13-4591-991c-e19da4917f58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54948b11-0a3a-4a24-840a-b301584c1b0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239815 -0.625093) (xy -0.218899 -0.611108) (xy -0.204903 -0.59018) (xy -0.200001 -0.565502)
+				(xy -0.200003 -0.264499) (xy -0.20491 -0.239815) (xy -0.218896 -0.218893) (xy -0.239821 -0.204907)
+				(xy -0.2645 -0.2) (xy -0.565497 -0.200004) (xy -0.590183 -0.204911) (xy -0.611105 -0.218899) (xy -0.625087 -0.239818)
+				(xy -0.629996 -0.264504) (xy -0.630001 -0.565501) (xy -0.625085 -0.590187) (xy -0.611108 -0.611108)
+				(xy -0.590181 -0.625094) (xy -0.565502 -0.630001) (xy -0.264498 -0.630007)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "b0b711a6-7817-454f-8417-df5a9b64ed88")
+		)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.5) (xy 0.5 -0.5) (xy 0.5 0.5) (xy -0.5 0.5)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "25675268-e683-4f5f-8656-5ac56ecd7926")
+		)
+		(pad "1" smd roundrect
+			(at -0.415002 -0.415001 180)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "681b1ada-52ab-4987-bf31-b208e81095b4")
+		)
+		(pad "2" smd roundrect
+			(at 0.415001 -0.415002 180)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "4796fbda-88c0-4535-a6bc-665175e058b1")
+		)
+		(pad "3" smd roundrect
+			(at -0.415001 0.415002 180)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "bea17643-7806-494b-9dfb-4ae39281d6df")
+		)
+		(pad "4" smd roundrect
+			(at 0.415002 0.415001 180)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "f41c4b94-668d-43ad-b8f7-c12ee7c1d0ce")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "ea20dcc9-c5a9-4058-84db-973ee8dc6332")
+		(at 171.285722 38.163661 -100)
+		(property "Reference" "U33"
+			(at 0.070002 0.020001 260)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7f89be8b-c895-407b-92fe-8c6a516e317d")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004998 1.204993 260)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "706511a8-d43d-4a58-bbfd-8947af0b3cdc")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 260)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f713165f-9c0e-4c9d-9d05-e9681ce4126d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 260)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "166f76ab-709f-4ef2-98bf-b4e92509a167")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 260)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76b59b4b-b825-4fd2-9a12-28ab4ec70231")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239821 -0.625092) (xy -0.218893 -0.611104) (xy -0.204916 -0.59018) (xy -0.200005 -0.565502)
+				(xy -0.2 -0.264496) (xy -0.204909 -0.239821) (xy -0.218889 -0.218893) (xy -0.239815 -0.204905) (xy -0.264498 -0.2)
+				(xy -0.565495 -0.199998) (xy -0.590183 -0.204908) (xy -0.611107 -0.218896) (xy -0.625093 -0.239818)
+				(xy -0.630001 -0.264497) (xy -0.629996 -0.565502) (xy -0.625089 -0.59018) (xy -0.611105 -0.611109)
+				(xy -0.590181 -0.62509) (xy -0.565499 -0.63) (xy -0.2645 -0.630001)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "79254c19-a5e3-40e5-956c-c3c7c10799a0")
+		)
+		(fp_poly
+			(pts
+				(xy -0.500002 -0.500004) (xy 0.500004 -0.500002) (xy 0.500002 0.500004) (xy -0.500004 0.500002)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "4cd688c7-7a68-475e-9c5a-b80f5a7aafc7")
+		)
+		(pad "1" smd roundrect
+			(at -0.414995 -0.415002 260)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "ed6ecf3e-b304-4523-8c72-423f08f1a69d")
+		)
+		(pad "2" smd roundrect
+			(at 0.415002 -0.414995 260)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "2a6d94d7-8240-4a7d-b976-cef908b4e177")
+		)
+		(pad "3" smd roundrect
+			(at -0.415002 0.414995 260)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "d08b02ee-50b5-45e4-90e3-fea099ab0eb4")
+		)
+		(pad "4" smd roundrect
+			(at 0.414995 0.415002 260)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "3687caf9-50b3-4eed-8653-53014a852cb8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "ed93be5f-535d-48b1-a20b-992ac152eda9")
+		(at 170.729058 39.693077 -30)
+		(property "Reference" "U32"
+			(at 0.07 0.020001 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f19b4fd2-7569-4c6b-856f-e51a1e37ef35")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.005001 1.205001 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fc8de99-f89d-4075-9c65-7bf505bdda28")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82a75ad9-17f7-45c9-b125-e201b542d76e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19866190-f2f6-4cfd-91b5-d7298ea733da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f7d29dc-1102-4ba0-aa7c-89f02a403d08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239815 -0.62509) (xy -0.218892 -0.611107) (xy -0.204908 -0.59018) (xy -0.199999 -0.565496)
+				(xy -0.199994 -0.2645) (xy -0.204912 -0.23982) (xy -0.218888 -0.218891) (xy -0.239815 -0.20491)
+				(xy -0.264495 -0.200001) (xy -0.565503 -0.200003) (xy -0.590185 -0.204913) (xy -0.611107 -0.218892)
+				(xy -0.625088 -0.239818) (xy -0.629995 -0.264502) (xy -0.630001 -0.565494) (xy -0.625089 -0.590184)
+				(xy -0.611111 -0.611103) (xy -0.590181 -0.62509) (xy -0.565498 -0.630006) (xy -0.264498 -0.630001)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "0c76882a-1bc6-4fb8-b424-af105b4cb2e8")
+		)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.500004) (xy 0.500004 -0.5) (xy 0.5 0.500004) (xy -0.500004 0.5)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "ec061b25-c068-4487-bf33-3cafc0144265")
+		)
+		(pad "1" smd roundrect
+			(at -0.415 -0.414998 330)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "78a2dd6c-05e8-45a6-ae7c-54da2b86119e")
+		)
+		(pad "2" smd roundrect
+			(at 0.414998 -0.415 330)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "c04532c5-0b6c-45b3-8850-27b6f4681e45")
+		)
+		(pad "3" smd roundrect
+			(at -0.414998 0.415 330)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "f6e7de95-6369-4a66-b1ab-56210d0e0eaf")
+		)
+		(pad "4" smd roundrect
+			(at 0.415 0.414998 330)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "a57d836b-899b-4e8b-a4da-3e97828d60a2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "ef307ae0-5c96-4687-9e7e-909723da1551")
+		(at 172.19091 42.380494 22.5)
+		(property "Reference" "U25"
+			(at 0.069993 0.019995 22.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ecaf46f2-efc7-40a8-8ecf-82b89f8ccf9d")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004999 1.204983 22.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "726026d5-2e0d-492f-84df-0d7d4e0e9cd5")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 22.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c63a75ee-cbf2-4978-8ae4-5a6ad8eed389")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 22.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a398cb89-3864-40cf-82a5-26b8fbc1cb2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 22.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60dd811b-ef9f-4316-855b-631ab8e7347c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.239814 -0.625089) (xy -0.218893 -0.611105) (xy -0.204913 -0.590178) (xy -0.2 -0.56549) (xy -0.199998 -0.264497)
+				(xy -0.204911 -0.239825) (xy -0.21889 -0.218893) (xy -0.239805 -0.204917) (xy -0.2645 -0.199998)
+				(xy -0.565499 -0.200003) (xy -0.590183 -0.204919) (xy -0.611109 -0.21889) (xy -0.625096 -0.23982)
+				(xy -0.629988 -0.264505) (xy -0.629993 -0.565501) (xy -0.625094 -0.590179) (xy -0.611109 -0.61111)
+				(xy -0.590172 -0.625088) (xy -0.565502 -0.629996) (xy -0.264497 -0.630003)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "b774d5c7-06e3-4ac0-af96-55d2f5b1cf5e")
+		)
+		(fp_poly
+			(pts
+				(xy -0.499993 -0.500005) (xy 0.500005 -0.499993) (xy 0.499993 0.500005) (xy -0.500005 0.499993)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "afb95b12-ce9f-4102-a071-533e9cde9b59")
+		)
+		(pad "1" smd roundrect
+			(at -0.415009 -0.414995 22.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "a2a34020-67ab-4d2d-add0-7f4579b2bffc")
+		)
+		(pad "2" smd roundrect
+			(at 0.414995 -0.415009 22.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "097603df-c88e-46b7-a053-5337ce6657b8")
+		)
+		(pad "3" smd roundrect
+			(at -0.414995 0.415009 22.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "8b215707-0872-4963-823f-26e8e5e3c860")
+		)
+		(pad "4" smd roundrect
+			(at 0.415009 0.414995 22.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "e1265b7b-b384-468a-804a-9bc9948c0bd2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JumperlessFootprints:XL-1010RGBC-WS2812B"
+		(layer "F.Cu")
+		(uuid "fd959ceb-ba9c-4bcc-bacf-d6584af7d2b1")
+		(at 173.857103 42.380498 67.5)
+		(property "Reference" "U24"
+			(at 0.070018 0.020016 67.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "12c17b43-ffc9-404e-a56f-6feecaf3658d")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.0375)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at -0.004994 1.204994 67.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bffe2c11-9f67-462c-b80d-056ab015eb7e")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+					(bold yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 0 0 67.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a53bc8c9-9f9f-431b-9723-4125ac71bab0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 67.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "370c169a-8cd4-499f-9e70-bc476d519fb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5349953"
+			(at 0 0 67.5)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acb792b5-e7a3-4d3f-bfdb-72b66adb92fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.23981 -0.625093) (xy -0.218892 -0.611114) (xy -0.204916 -0.590181) (xy -0.200006 -0.565501)
+				(xy -0.199999 -0.264494) (xy -0.204904 -0.239816) (xy -0.218885 -0.218897) (xy -0.239819 -0.204918)
+				(xy -0.264493 -0.199999) (xy -0.565501 -0.200008) (xy -0.590187 -0.204915) (xy -0.611111 -0.218899)
+				(xy -0.625084 -0.239817) (xy -0.629992 -0.264503) (xy -0.630004 -0.565493) (xy -0.625091 -0.590183)
+				(xy -0.611112 -0.611104) (xy -0.590184 -0.625092) (xy -0.565497 -0.630007) (xy -0.264495 -0.630001)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "4d6ae4f9-fed9-4234-83a3-3db858e6b58b")
+		)
+		(fp_poly
+			(pts
+				(xy -0.499997 -0.500007) (xy 0.500007 -0.499997) (xy 0.499997 0.500007) (xy -0.500007 0.499997)
+			)
+			(stroke
+				(width 0.03)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "bd8cfb18-c1a0-4b09-a24c-7d19a27800e8")
+		)
+		(pad "1" smd roundrect
+			(at -0.415001 -0.414998 67.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "5f8cbb4d-f5be-467b-af1d-d0d7a763fee9")
+		)
+		(pad "2" smd roundrect
+			(at 0.414998 -0.415001 67.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "92169938-506a-47a0-960b-91e1f725fa6e")
+		)
+		(pad "3" smd roundrect
+			(at -0.414998 0.415001 67.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "5645f5fd-534f-4da3-8292-b82e9afc0452")
+		)
+		(pad "4" smd roundrect
+			(at 0.415001 0.414998 67.5)
+			(size 0.43 0.43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(thermal_bridge_angle 45)
+			(uuid "036053bf-f61b-4477-b35b-f295c878389e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 -0.01)
+			)
+			(scale
+				(xyz 1.9 3.5 2.2)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/kevinsanto/Documents/KiCad/7.0/3dmodels/Xl1010 v1.iges"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_arc
+		(start 170.729058 39.693077)
+		(mid 170.260514 40.362238)
+		(end 169.682881 40.939861)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "2c3013a5-9dbb-433e-a59a-255d8b39666a")
+	)
+	(gr_arc
+		(start 173.0201 43.662084)
+		(mid 173.833883 43.733289)
+		(end 174.622942 43.944707)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "2cfe7e40-00c9-4ddb-9b96-442715e8a956")
+	)
+	(gr_arc
+		(start 175.311711 39.692925)
+		(mid 174.966475 38.952571)
+		(end 174.755053 38.163514)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "091a43c1-850b-4b03-bf72-944492ad4512")
+	)
+	(gr_poly
+		(pts
+			(xy 179.370233 37.349738) (xy 166.670512 37.349573) (xy 173.020514 48.348099)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "9151132d-9420-4bb6-97eb-d3c584b4f76d")
+	)
+	(segment
+		(start 174.693938 41.192966)
+		(end 174.615457 41.485856)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "01c66453-c608-468a-a954-2cc6f5eab8c6")
+	)
+	(segment
+		(start 173.134373 39.361928)
+		(end 172.722527 39.251576)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "03c3bd2f-5a19-4422-9066-c3240a0d299c")
+	)
+	(segment
+		(start 174.193655 40.631251)
+		(end 174.307957 40.829225)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "04231247-3466-4e04-94ff-84e994d47fcd")
+	)
+	(segment
+		(start 174.516139 40.885007)
+		(end 174.693938 41.192966)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "06fe5e39-d032-4188-8b03-6d179917d24e")
+	)
+	(segment
+		(start 174.325788 42.430342)
+		(end 174.399324 42.155902)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "0b857552-afbd-4968-b83b-e47fe6671c73")
+	)
+	(segment
+		(start 170.164159 41.667187)
+		(end 169.631724 41.524523)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "114dcf3e-11a6-497a-9ec0-94f872b10771")
+	)
+	(segment
+		(start 171.830636 42.050852)
+		(end 171.940988 41.639013)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "163e36e8-95aa-4934-928d-028b749cdf74")
+	)
+	(segment
+		(start 175.154843 43.696675)
+		(end 174.852379 43.17279)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "18acec3a-1362-4ff7-a916-6d69d630b4a0")
+	)
+	(segment
+		(start 175.247418 40.411564)
+		(end 175.516212 40.48359)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "190f5a1b-3945-4997-945c-257333f5a063")
+	)
+	(segment
+		(start 171.121299 42.589018)
+		(end 171.16286 42.660998)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "198de4ef-5715-427b-95b3-f5f4e109ab62")
+	)
+	(segment
+		(start 171.791293 39.966159)
+		(end 171.606875 40.07263)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "1c890d6e-48b7-4eb8-a47b-ec93fa4789d5")
+	)
+	(segment
+		(start 172.293915 43.993702)
+		(end 172.605106 44.077087)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "326e056d-dfab-4df5-9481-bd29ff930fa5")
+	)
+	(segment
+		(start 175.505941 38.968049)
+		(end 175.463608 39.126028)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "360960d0-8bd2-43be-ba98-4e97c334268f")
+	)
+	(segment
+		(start 173.572768 40.696903)
+		(end 173.84725 40.538431)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "36a51f52-cd2c-4cc5-80fe-65d754f73f93")
+	)
+	(segment
+		(start 174.25673 39.966152)
+		(end 174.256732 39.966146)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "39c70d73-64b0-4ce4-8f7e-86457ea304bd")
+	)
+	(segment
+		(start 175.235799 38.500158)
+		(end 175.505941 38.968049)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "3de99473-7cda-4481-9fc1-9eea187a0a62")
+	)
+	(segment
+		(start 171.648681 42.155906)
+		(end 171.830636 42.050852)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "3e7bcd65-898c-456e-81a7-6fcd7775221a")
+	)
+	(segment
+		(start 170.648255 39.085129)
+		(end 170.804964 38.500284)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "44b35879-c4db-41ee-9926-6e6b65aff35e")
+	)
+	(segment
+		(start 173.44113 38.578296)
+		(end 174.188591 38.146752)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "4a5e3b7b-9f02-4869-bdfc-c49425c5c477")
+	)
+	(segment
+		(start 174.547599 40.469952)
+		(end 174.25673 39.966152)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "4f5255a7-71a5-4cb7-8eec-1d06e37b627e")
+	)
+	(segment
+		(start 174.852379 43.17279)
+		(end 174.736519 43.141746)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "5d3ba8dc-6583-4ea0-a235-9e72960892a4")
+	)
+	(segment
+		(start 171.16286 42.660998)
+		(end 170.885354 43.696669)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "674d98f1-a148-4ac5-8acc-2188363d88e3")
+	)
+	(segment
+		(start 173.130495 42.711553)
+		(end 172.733139 42.605081)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "6fba331c-852a-4b19-9a97-ab773f8d4f8d")
+	)
+	(segment
+		(start 173.717262 43.545344)
+		(end 174.091035 44.192732)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "73eb8b48-ab9f-4c1f-aa8f-bc62e2ac339f")
+	)
+	(segment
+		(start 174.615457 41.485856)
+		(end 174.700823 41.633712)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "7413800d-969d-4a67-9693-0931e185aec7")
+	)
+	(segment
+		(start 175.516212 40.48359)
+		(end 175.918862 40.25112)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "79391250-c003-49e3-b5fe-4b1f3ac10fef")
+	)
+	(segment
+		(start 173.544069 43.435835)
+		(end 173.733037 43.486471)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "7b69e668-2747-4187-99f0-b6abcf143a0d")
+	)
+	(segment
+		(start 173.435096 43.247086)
+		(end 173.544069 43.435835)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "890afa26-d32d-476f-9fd8-9b625e739c36")
+	)
+	(segment
+		(start 171.3472 41.633706)
+		(end 171.309974 41.569225)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "8bdf2087-6a92-4f1f-bce4-661758e42604")
+	)
+	(segment
+		(start 170.479954 40.491496)
+		(end 170.880958 40.259975)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "9474bd4e-c1f4-4c56-99ed-77d3527789bf")
+	)
+	(segment
+		(start 171.940988 41.639013)
+		(end 172.556232 41.283803)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "a578b6b9-8312-4295-a0f2-d3544860cd21")
+	)
+	(segment
+		(start 173.84725 40.538431)
+		(end 174.193655 40.631251)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "b8e5cca3-4f69-4e08-8f54-2282cc2970a9")
+	)
+	(segment
+		(start 170.643257 41.390581)
+		(end 170.164159 41.667187)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "bb6a7dab-9949-4f41-bbee-f6fd966b917f")
+	)
+	(segment
+		(start 172.127374 37.618675)
+		(end 172.611127 37.748294)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "bc5effdc-bc16-4de4-aae2-fd0556162404")
+	)
+	(segment
+		(start 169.809245 40.31178)
+		(end 170.479954 40.491496)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "be0a75c3-fd8b-440e-93c4-afa6dcde4cec")
+	)
+	(segment
+		(start 175.78648 41.615869)
+		(end 175.339599 41.873876)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "c49454ed-c4c1-4e8f-9af9-3f0371d9b042")
+	)
+	(segment
+		(start 175.918862 40.25112)
+		(end 176.306743 40.355054)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "c515713e-a148-4611-8410-49f7a2eeebfd")
+	)
+	(segment
+		(start 173.314883 42.605098)
+		(end 173.130495 42.711553)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "c82b06c7-1384-4e40-881b-ce1bf935c3f8")
+	)
+	(segment
+		(start 170.577157 39.126177)
+		(end 170.648255 39.085129)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "c954f800-a275-450c-bfe4-548863a75133")
+	)
+	(segment
+		(start 171.309974 41.569225)
+		(end 170.643257 41.390581)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "cc9eb8d5-b912-413b-b4ad-c4e271fb782e")
+	)
+	(segment
+		(start 176.409037 41.524377)
+		(end 176.10346 41.700802)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "cca7547d-4043-493e-b1ce-23bbc5447f12")
+	)
+	(segment
+		(start 176.10346 41.700802)
+		(end 175.78648 41.615869)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "d0f4d5a3-1e1d-4f98-8bbc-49675ba3f389")
+	)
+	(segment
+		(start 171.606875 40.07263)
+		(end 171.500415 40.46995)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "d54bad31-c3b0-424f-af28-193eb06f9370")
+	)
+	(segment
+		(start 169.734045 40.3552)
+		(end 169.809245 40.31178)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "d701a62c-bc90-4ce4-be7e-9491e822229b")
+	)
+	(segment
+		(start 175.15981 40.259823)
+		(end 175.247418 40.411564)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "d796fc9a-ac35-41ae-8eba-c3edab08fa1a")
+	)
+	(segment
+		(start 173.733037 43.486471)
+		(end 173.717262 43.545344)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "ea91b9f1-2641-4cb0-9809-ad31f5d0cf2d")
+	)
+	(segment
+		(start 174.736519 43.141746)
+		(end 174.325788 42.430342)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "eb524f16-76f5-472c-a1ce-378fca20623f")
+	)
+	(segment
+		(start 174.307957 40.829225)
+		(end 174.516139 40.885007)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "f0399d39-2c4e-43a1-9623-a200560ad259")
+	)
+	(segment
+		(start 171.949161 44.192747)
+		(end 172.293915 43.993702)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "f51f2deb-c6fc-4bea-87bc-f36fcb41dbe7")
+	)
+	(segment
+		(start 174.188591 38.146752)
+		(end 174.274301 37.826879)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "fa4ad5af-d28b-425d-adb7-9ae073581316")
+	)
+	(segment
+		(start 171.766482 37.827036)
+		(end 172.127374 37.618675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "fdf5b911-654c-4762-b651-eefcbb8ee304")
+	)
+	(segment
+		(start 173.325501 39.25158)
+		(end 173.134373 39.361928)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "")
+		(uuid "fff40927-8be0-465d-bddc-e143ce12f2a0")
+	)
+	(embedded_fonts no)
+)
